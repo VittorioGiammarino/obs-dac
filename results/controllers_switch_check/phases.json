@@ -1,0 +1,326 @@
+[
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "regime": "iid",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.0059692226552351,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.36699172636376526,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.6843511971929412,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "regime": "iid",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.0061459951377923015,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.34328384618367225,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.3087115720408894,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "regime": "iid",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.006045202235918856,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.06542516497623634,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.017298213387286633,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "regime": "iid",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.0060591521840271745,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.06555724881764773,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.01359861056956187,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "regime": "iid",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.005750968964427475,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.02288445094826944,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.007326518880592863,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "regime": "iid",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.005394334992073174,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.31278405029497536,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.23639181582253674,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "regime": "iid",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.008814408801218377,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.00921029135416232,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.003773766767859024,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "regime": "iid",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.005967357355664507,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.33117479919900394,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.21351906960527856,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "regime": "iid",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.005967362385856575,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.3324141061130615,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.22341399843058857,
+    "ci95": [
+      null,
+      null
+    ]
+  }
+]

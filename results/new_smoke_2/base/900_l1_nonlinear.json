@@ -1,0 +1,68 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 30,
+  "position_rmse_observed": 0.10833849103165094,
+  "velocity_rmse_observed": 0.1736898287214367,
+  "cost_with_failure_penalty": 0.17818659034245746,
+  "observed_cost": 0.17818659034245746,
+  "effort_observed": 0.056902937636884046,
+  "attitude_tracking_rmse_observed": 0.019131139478994107,
+  "max_abs_pitch": 0.09365989879369374,
+  "velocity_cost_observed": 0.03620178792153842,
+  "position_cost_observed": 0.14084674366818134,
+  "effort_cost_observed": 0.001138058752737681,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "bias",
+      "cost_with_failure_penalty": 0.17818659034245746,
+      "position_rmse_observed": 0.10833849103165094
+    }
+  ],
+  "phases": [
+    {
+      "segment": 0,
+      "regime": "bias",
+      "phase": "transition",
+      "duration": 1.2,
+      "complete": true,
+      "cost_with_failure_penalty": 0.17818659034245746,
+      "mean_stage_cost": 0.1484888252853812,
+      "position_rmse": 0.10833849103165094,
+      "effort": 0.056902937636884046
+    }
+  ],
+  "action_ms_mean": 0.13507846645855656,
+  "action_ms_p95": 0.15468454948859287,
+  "action_ms_p99": 0.19473233987810096,
+  "estimation_ms_mean": 0.29194349990575574,
+  "estimation_ms_p95": 0.29650999949808465,
+  "estimation_ms_p99": 0.3028910091961734,
+  "update_ms_mean": 0.006034433439102334,
+  "update_ms_p95": 0.006349698924168479,
+  "update_ms_p99": 0.007071968648233452,
+  "total_ms_mean": 0.43305639980341465,
+  "total_ms_p95": 0.4531018503257655,
+  "total_ms_p99": 0.5044865188756377,
+  "deadline_miss_frequency": 0.0,
+  "seed": 900,
+  "method": "l1",
+  "model": "nonlinear",
+  "skipped_updates": 0,
+  "scenario_hash": "3f51f4d42feaf86cd3aa7f15348da387cdd1ec8f9c1a5ee2bad6ec6c66ced523",
+  "order": [
+    "bias"
+  ],
+  "final_parameters": [],
+  "variant": "base"
+}

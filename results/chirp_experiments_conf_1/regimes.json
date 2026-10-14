@@ -1,0 +1,123 @@
+[
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 5.01931160182187,
+    "ci95": [
+      5.003857769568081,
+      5.027049223395042
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 5.523452956241101,
+    "ci95": [
+      5.498207377359036,
+      5.543599203103683
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 5.328094995336362,
+    "ci95": [
+      5.310071297410531,
+      5.353743696055818
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 5.184143891623124,
+    "ci95": [
+      5.167937358038296,
+      5.208943524932368
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 3.079676126581436,
+    "ci95": [
+      3.0760395579136266,
+      3.0844433782261387
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 5.023841981828116,
+    "ci95": [
+      4.9907824025224965,
+      5.044482745150142
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 0.8391070614717832,
+    "ci95": [
+      0.8383450628338269,
+      0.8404673545691125
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 2.141931892281734,
+    "ci95": [
+      2.1171213002007203,
+      2.173256130800968
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 2.108116409983583,
+    "ci95": [
+      2.0898511265281026,
+      2.125926581745154
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_dac_linear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 1.4709400541051083,
+    "ci95": [
+      1.4692337489418759,
+      1.4724279269798857
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_dac_nonlinear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 1.3667080515307992,
+    "ci95": [
+      1.3640492085297613,
+      1.3687465840503343
+    ]
+  }
+]

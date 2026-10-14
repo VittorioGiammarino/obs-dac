@@ -1,0 +1,160 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 75,
+  "position_rmse_observed": 0.08112846056380645,
+  "velocity_rmse_observed": 0.14254117373103034,
+  "cost_with_failure_penalty": 0.2593621194531853,
+  "observed_cost": 0.2593621194531853,
+  "effort_observed": 0.04766737118665417,
+  "attitude_tracking_rmse_observed": 0.01929996104385968,
+  "max_abs_pitch": 0.11303905275430964,
+  "velocity_cost_observed": 0.060953958625859325,
+  "position_cost_observed": 0.19745481340359292,
+  "effort_cost_observed": 0.0009533474237330835,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "gust",
+      "cost_with_failure_penalty": 0.2593621194531853,
+      "position_rmse_observed": 0.08112846056380645
+    }
+  ],
+  "phases": [
+    {
+      "segment": 0,
+      "regime": "gust",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.047080793268275835,
+      "mean_stage_cost": 0.023540396634137917,
+      "position_rmse": 0.03444041002257346,
+      "effort": 0.030765358390537116
+    },
+    {
+      "segment": 0,
+      "regime": "gust",
+      "phase": "later",
+      "duration": 1.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.21228132618490952,
+      "mean_stage_cost": 0.21228132618490952,
+      "position_rmse": 0.13180742640425588,
+      "effort": 0.016902012796117045
+    }
+  ],
+  "action_ms_mean": 0.13976138672054125,
+  "action_ms_p95": 0.24232989999291019,
+  "action_ms_p99": 1.2717843200880532,
+  "estimation_ms_mean": 0.16525317330282024,
+  "estimation_ms_p95": 0.3063249996557715,
+  "estimation_ms_p99": 1.3047711007675482,
+  "update_ms_mean": 4.031719640115625,
+  "update_ms_p95": 11.663861500528581,
+  "update_ms_p99": 14.565724620733823,
+  "total_ms_mean": 4.336734200138987,
+  "total_ms_p95": 12.347167100779183,
+  "total_ms_p99": 15.055401059689759,
+  "deadline_miss_frequency": 0.0,
+  "seed": 901,
+  "method": "dac",
+  "model": "nonlinear",
+  "skipped_updates": 0,
+  "scenario_hash": "d94a6f95e59a640a56f6ed91fb918b9e1d96fc23e7cc07ad32eb47b8bd7dbc29",
+  "order": [
+    "gust"
+  ],
+  "final_parameters": [
+    [
+      [
+        -0.0342749098684788,
+        -0.018172299557312765
+      ],
+      [
+        -0.014296779551275524,
+        -0.009335679443803762
+      ]
+    ],
+    [
+      [
+        -0.03150193629196771,
+        -0.01835304989450689
+      ],
+      [
+        -0.013529874680062741,
+        -0.009480957009167516
+      ]
+    ],
+    [
+      [
+        -0.028562860801471072,
+        -0.01850154208306088
+      ],
+      [
+        -0.01259712324582847,
+        -0.009569740859521435
+      ]
+    ],
+    [
+      [
+        -0.02593609673279347,
+        -0.018358590101919692
+      ],
+      [
+        -0.011730501496064536,
+        -0.009515439068629757
+      ]
+    ],
+    [
+      [
+        -0.02333410208949019,
+        -0.01828771486325946
+      ],
+      [
+        -0.010763456251707333,
+        -0.009407048158903837
+      ]
+    ],
+    [
+      [
+        -0.021121943851413305,
+        -0.017956326373701342
+      ],
+      [
+        -0.009859999969519724,
+        -0.009145283398440278
+      ]
+    ],
+    [
+      [
+        -0.01913329197770431,
+        -0.017601868325618483
+      ],
+      [
+        -0.008912004892248108,
+        -0.008791264059572234
+      ]
+    ],
+    [
+      [
+        -0.017391762797078287,
+        -0.01705500821855327
+      ],
+      [
+        -0.007989871767193986,
+        -0.008336506861540046
+      ]
+    ]
+  ],
+  "variant": "correlated_gust"
+}

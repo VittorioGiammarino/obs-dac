@@ -1,0 +1,254 @@
+[
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "nominal_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 1,
+    "mean_difference": -0.0011470864332055741,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "nominal_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 1,
+    "mean_difference": -0.0002552160892151517,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "nominal_nonlinear",
+    "metric": "effort_observed",
+    "n": 1,
+    "mean_difference": 0.0019468423946789742,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "bias_linear",
+    "metric": "cost_with_failure_penalty",
+    "n": 1,
+    "mean_difference": 0.11741477908366828,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "bias_linear",
+    "metric": "position_rmse_observed",
+    "n": 1,
+    "mean_difference": 0.040310984018079185,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "bias_linear",
+    "metric": "effort_observed",
+    "n": 1,
+    "mean_difference": -0.012189112644293065,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "bias_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 1,
+    "mean_difference": 0.11680186030145552,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "bias_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 1,
+    "mean_difference": 0.040015070506652595,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "bias_nonlinear",
+    "metric": "effort_observed",
+    "n": 1,
+    "mean_difference": -0.015702308643932635,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "nominal_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 1,
+    "mean_difference": -0.0011058362148667622,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "nominal_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 1,
+    "mean_difference": -0.000245729282260701,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "nominal_nonlinear",
+    "metric": "effort_observed",
+    "n": 1,
+    "mean_difference": 0.0017894497021824357,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "bias_linear",
+    "metric": "cost_with_failure_penalty",
+    "n": 1,
+    "mean_difference": 0.11745602930200709,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "bias_linear",
+    "metric": "position_rmse_observed",
+    "n": 1,
+    "mean_difference": 0.040320470825033636,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "bias_linear",
+    "metric": "effort_observed",
+    "n": 1,
+    "mean_difference": -0.012346505336789604,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "bias_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 1,
+    "mean_difference": 0.11684311051979433,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "bias_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 1,
+    "mean_difference": 0.040024557313607045,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "bias_nonlinear",
+    "metric": "effort_observed",
+    "n": 1,
+    "mean_difference": -0.015859701336429173,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "dac_linear",
+    "metric": "cost_with_failure_penalty",
+    "n": 1,
+    "mean_difference": 4.125021833881193e-05,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "dac_linear",
+    "metric": "position_rmse_observed",
+    "n": 1,
+    "mean_difference": 9.4868069544507e-06,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "dac_linear",
+    "metric": "effort_observed",
+    "n": 1,
+    "mean_difference": -0.00015739269249653853,
+    "ci95": [
+      null,
+      null
+    ]
+  }
+]

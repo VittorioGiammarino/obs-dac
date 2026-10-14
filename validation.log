@@ -1,0 +1,15 @@
+test_estimator_and_causality (test_benchmark.BenchmarkTests.test_estimator_and_causality) ... ok
+test_failure_tail (test_benchmark.BenchmarkTests.test_failure_tail) ... ok
+test_hover (test_benchmark.BenchmarkTests.test_hover) ... ok
+test_integrator_and_sensitivity (test_benchmark.BenchmarkTests.test_integrator_and_sensitivity) ... ok
+test_linearization (test_benchmark.BenchmarkTests.test_linearization) ... ok
+test_no_wind_tracking (test_benchmark.BenchmarkTests.test_no_wind_tracking) ... ok
+test_pairing (test_benchmark.BenchmarkTests.test_pairing) ... ok
+test_recovery_censoring (test_benchmark.BenchmarkTests.test_recovery_censoring) ... ok
+test_replay_and_gradient (test_benchmark.BenchmarkTests.test_replay_and_gradient) ... ok
+test_rotor_limits_and_controller_jacobian (test_benchmark.BenchmarkTests.test_rotor_limits_and_controller_jacobian) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.488s
+
+OK

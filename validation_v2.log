@@ -1,0 +1,24 @@
+test_all_baselines_hover_and_initialization (test_baselines.BaselineTests.test_all_baselines_hover_and_initialization) ... ok
+test_drag_sensitivity (test_baselines.BaselineTests.test_drag_sensitivity) ... ok
+test_l1_predictor_constant_error_solution (test_baselines.BaselineTests.test_l1_predictor_constant_error_solution) ... ok
+test_l1_unmatched_channel_not_canceled_as_thrust (test_baselines.BaselineTests.test_l1_unmatched_channel_not_canceled_as_thrust) ... ok
+test_nmpc_gradient_and_descent (test_baselines.BaselineTests.test_nmpc_gradient_and_descent) ... ok
+test_no_wind_new_baselines (test_baselines.BaselineTests.test_no_wind_new_baselines) ... ok
+test_observer_constant_disturbance (test_baselines.BaselineTests.test_observer_constant_disturbance) ... ok
+test_pid_integral_sign_and_antiwindup (test_baselines.BaselineTests.test_pid_integral_sign_and_antiwindup) ... ok
+test_state_resets_between_runs (test_baselines.BaselineTests.test_state_resets_between_runs) ... ok
+test_estimator_and_causality (test_benchmark.BenchmarkTests.test_estimator_and_causality) ... ok
+test_failure_tail (test_benchmark.BenchmarkTests.test_failure_tail) ... ok
+test_hover (test_benchmark.BenchmarkTests.test_hover) ... ok
+test_integrator_and_sensitivity (test_benchmark.BenchmarkTests.test_integrator_and_sensitivity) ... ok
+test_linearization (test_benchmark.BenchmarkTests.test_linearization) ... ok
+test_no_wind_tracking (test_benchmark.BenchmarkTests.test_no_wind_tracking) ... ok
+test_pairing (test_benchmark.BenchmarkTests.test_pairing) ... ok
+test_recovery_censoring (test_benchmark.BenchmarkTests.test_recovery_censoring) ... ok
+test_replay_and_gradient (test_benchmark.BenchmarkTests.test_replay_and_gradient) ... ok
+test_rotor_limits_and_controller_jacobian (test_benchmark.BenchmarkTests.test_rotor_limits_and_controller_jacobian) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 3.801s
+
+OK

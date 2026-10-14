@@ -1,0 +1,380 @@
+[
+  {
+    "variant": "correlated_gust",
+    "controller": "nominal_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.08483136215009061,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "pid_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.08831535986186281,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "bias_linear",
+    "metric": "position_rmse_observed",
+    "mean": 0.06165036174768764,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "bias_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.06285286809887848,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dob_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.04060931392848809,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "l1_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.08433464337397154,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "nmpc_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.01633556897485867,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dac_linear",
+    "metric": "position_rmse_observed",
+    "mean": 0.08115405948810682,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dac_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.08112846056380645,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "nominal_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.28192199003362134,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "pid_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.30342906956024734,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "bias_linear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.15105582459232575,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "bias_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.15633198798514897,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dob_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.0765047446836408,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "l1_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.2758717046707698,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "nmpc_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.03836473589868066,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dac_linear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.2595149570193597,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dac_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.2593621194531853,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "nominal_nonlinear",
+    "metric": "effort_observed",
+    "mean": 0.0454728988859752,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "pid_nonlinear",
+    "metric": "effort_observed",
+    "mean": 0.04598311123283438,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "bias_linear",
+    "metric": "effort_observed",
+    "mean": 0.0865800540404531,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "bias_nonlinear",
+    "metric": "effort_observed",
+    "mean": 0.0874649396171344,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dob_nonlinear",
+    "metric": "effort_observed",
+    "mean": 0.13115546563470423,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "l1_nonlinear",
+    "metric": "effort_observed",
+    "mean": 0.07255799442683296,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "nmpc_nonlinear",
+    "metric": "effort_observed",
+    "mean": 0.38581649423234327,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dac_linear",
+    "metric": "effort_observed",
+    "mean": 0.04766507902447248,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dac_nonlinear",
+    "metric": "effort_observed",
+    "mean": 0.04766737118665417,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 75,
+  "position_rmse_observed": 0.08433464337397154,
+  "velocity_rmse_observed": 0.14265410683629628,
+  "cost_with_failure_penalty": 0.2758717046707698,
+  "observed_cost": 0.2758717046707698,
+  "effort_observed": 0.07255799442683296,
+  "attitude_tracking_rmse_observed": 0.018704026790661573,
+  "max_abs_pitch": 0.11295450409983605,
+  "velocity_cost_observed": 0.061050582591784315,
+  "position_cost_observed": 0.21336996219044885,
+  "effort_cost_observed": 0.001451159888536659,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "gust",
+      "cost_with_failure_penalty": 0.2758717046707698,
+      "position_rmse_observed": 0.08433464337397154
+    }
+  ],
+  "phases": [
+    {
+      "segment": 0,
+      "regime": "gust",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.03758329764467732,
+      "mean_stage_cost": 0.018791648822338657,
+      "position_rmse": 0.02997823614787751,
+      "effort": 0.06396508793480232
+    },
+    {
+      "segment": 0,
+      "regime": "gust",
+      "phase": "later",
+      "duration": 1.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.23828840702609252,
+      "mean_stage_cost": 0.23828840702609252,
+      "position_rmse": 0.13978414407209805,
+      "effort": 0.008592906492030638
+    }
+  ],
+  "action_ms_mean": 0.1292142266659842,
+  "action_ms_p95": 0.19416819959587883,
+  "action_ms_p99": 0.26099103833985304,
+  "estimation_ms_mean": 0.24037176008278038,
+  "estimation_ms_p95": 0.4064222013766993,
+  "estimation_ms_p99": 0.4813499806550681,
+  "update_ms_mean": 0.005320759955793619,
+  "update_ms_p95": 0.007004100552876479,
+  "update_ms_p99": 0.008460659555566963,
+  "total_ms_mean": 0.3749067467045582,
+  "total_ms_p95": 0.5470049010909861,
+  "total_ms_p99": 0.5992529204741005,
+  "deadline_miss_frequency": 0.0,
+  "seed": 901,
+  "method": "l1",
+  "model": "nonlinear",
+  "skipped_updates": 0,
+  "scenario_hash": "d94a6f95e59a640a56f6ed91fb918b9e1d96fc23e7cc07ad32eb47b8bd7dbc29",
+  "order": [
+    "gust"
+  ],
+  "final_parameters": [],
+  "variant": "correlated_gust"
+}

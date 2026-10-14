@@ -1,0 +1,195 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 150,
+  "position_rmse_observed": 0.13188388387438285,
+  "velocity_rmse_observed": 0.11339103244747283,
+  "cost_with_failure_penalty": 1.1235909338590135,
+  "observed_cost": 1.1235909338590135,
+  "effort_observed": 0.14221234372441446,
+  "attitude_tracking_rmse_observed": 0.016947893705822545,
+  "max_abs_pitch": 0.09857669640688654,
+  "velocity_cost_observed": 0.07714515743702301,
+  "position_cost_observed": 1.043601529547502,
+  "effort_cost_observed": 0.0028442468744882894,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    },
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    },
+    {
+      "time": 0.92,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "iid",
+      "cost_with_failure_penalty": 0.01193472477171315,
+      "position_rmse_observed": 0.01705571210261707
+    },
+    {
+      "segment": 1,
+      "regime": "bias",
+      "cost_with_failure_penalty": 0.664828212226123,
+      "position_rmse_observed": 0.17684110743638284
+    },
+    {
+      "segment": 2,
+      "regime": "periodic",
+      "cost_with_failure_penalty": 0.44682799686117713,
+      "position_rmse_observed": 0.1435841282409774
+    }
+  ],
+  "phases": [
+    {
+      "segment": 0,
+      "regime": "iid",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.01193472477171315,
+      "mean_stage_cost": 0.005967362385856575,
+      "position_rmse": 0.01705571210261707,
+      "effort": 0.006994681870090955
+    },
+    {
+      "segment": 1,
+      "regime": "bias",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.664828212226123,
+      "mean_stage_cost": 0.3324141061130615,
+      "position_rmse": 0.17684110743638284,
+      "effort": 0.077518375231267
+    },
+    {
+      "segment": 2,
+      "regime": "periodic",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.44682799686117713,
+      "mean_stage_cost": 0.22341399843058857,
+      "position_rmse": 0.1435841282409774,
+      "effort": 0.0576992866230565
+    }
+  ],
+  "action_ms_mean": 0.11183211997073765,
+  "action_ms_p95": 0.23291164989132057,
+  "action_ms_p99": 0.5874172603762408,
+  "estimation_ms_mean": 0.14488517999173686,
+  "estimation_ms_p95": 0.2840089508936216,
+  "estimation_ms_p99": 0.6653383289267366,
+  "update_ms_mean": 5.123197246612108,
+  "update_ms_p95": 14.681837499756504,
+  "update_ms_p99": 21.049484249033398,
+  "total_ms_mean": 5.379914546574582,
+  "total_ms_p95": 15.129795849861692,
+  "total_ms_p99": 21.247931900106764,
+  "deadline_miss_frequency": 0.0,
+  "seed": 902,
+  "method": "dac",
+  "model": "nonlinear",
+  "skipped_updates": 0,
+  "scenario_hash": "2d59a047418518dcc0f30094c02d832f08f887043a3e239e8f0a78f214bfc059",
+  "order": [
+    "iid",
+    "bias",
+    "periodic"
+  ],
+  "final_parameters": [
+    [
+      [
+        -0.11920220620341233,
+        -0.05907797061815786
+      ],
+      [
+        -0.06354867113354147,
+        -0.03596262031328091
+      ]
+    ],
+    [
+      [
+        -0.11728863201725391,
+        -0.057683823322346395
+      ],
+      [
+        -0.06337169674149369,
+        -0.03565876751956438
+      ]
+    ],
+    [
+      [
+        -0.11510710658779107,
+        -0.05710510340718319
+      ],
+      [
+        -0.06295056677335308,
+        -0.035407787501487875
+      ]
+    ],
+    [
+      [
+        -0.11279282575092063,
+        -0.055645907951004346
+      ],
+      [
+        -0.06262001254555727,
+        -0.034971925503101374
+      ]
+    ],
+    [
+      [
+        -0.11049730791052076,
+        -0.05475517940006563
+      ],
+      [
+        -0.06193645127523938,
+        -0.034653773904800345
+      ]
+    ],
+    [
+      [
+        -0.1078391845487698,
+        -0.05315639946581788
+      ],
+      [
+        -0.06149907771710367,
+        -0.034068311374211874
+      ]
+    ],
+    [
+      [
+        -0.10576691044267288,
+        -0.05207634702200433
+      ],
+      [
+        -0.060840390668707424,
+        -0.03372484192539736
+      ]
+    ],
+    [
+      [
+        -0.10361865546107446,
+        -0.05057388295098658
+      ],
+      [
+        -0.06024278756031329,
+        -0.03305467021267335
+      ]
+    ]
+  ],
+  "variant": "base"
+}

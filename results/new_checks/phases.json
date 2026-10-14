@@ -1,0 +1,1298 @@
+[
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.3599854134278796,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.9231745817959426,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.33159248900237154,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.6022738927528272,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.06958680542836843,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.016352446424213987,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.07113483290468603,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.017722487692149104,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.016110562781391672,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.002542538341949929,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.2980580494375334,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.5269678958401139,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.0030006760438423268,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.0008207015628154319,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.3292924335328463,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.4274397496800132,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.3304456885431374,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.4436636440245199,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "nominal_nonlinear",
+    "regime": "gust",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.023779661515838598,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "nominal_nonlinear",
+    "regime": "gust",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.23436266700194416,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "pid_nonlinear",
+    "regime": "gust",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.024458025799116063,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "pid_nonlinear",
+    "regime": "gust",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.25451301796201525,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "bias_linear",
+    "regime": "gust",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.019835997574764504,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "bias_linear",
+    "regime": "gust",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.11138382944279673,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "bias_nonlinear",
+    "regime": "gust",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.019938459094591136,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "bias_nonlinear",
+    "regime": "gust",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.11645506979596668,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dob_nonlinear",
+    "regime": "gust",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.014116045642653818,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dob_nonlinear",
+    "regime": "gust",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.04827265339833316,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "l1_nonlinear",
+    "regime": "gust",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.018791648822338657,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "l1_nonlinear",
+    "regime": "gust",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.23828840702609252,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "nmpc_nonlinear",
+    "regime": "gust",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.008600622593048602,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "nmpc_nonlinear",
+    "regime": "gust",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.021121497838405858,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dac_linear",
+    "regime": "gust",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.02354160378021621,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dac_linear",
+    "regime": "gust",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.2124317494589273,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dac_nonlinear",
+    "regime": "gust",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.023540396634137917,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dac_nonlinear",
+    "regime": "gust",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.21228132618490952,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "nominal_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.3599868704066214,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "nominal_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.9245993533104564,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "pid_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.33160717216361685,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "pid_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.6043064978459886,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "bias_linear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.06923439926377453,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "bias_linear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.016515051230633054,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "bias_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.07084241716695039,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "bias_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.017899548726641065,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "dob_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.016779698036439385,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "dob_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.002583291914679013,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "l1_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.2983632047106433,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "l1_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.5271529715980785,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "nmpc_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.0033192012743528763,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "nmpc_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.0008217629557088381,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "dac_linear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.3291391060375249,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "dac_linear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.42941808036115,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "dac_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.33030067376344435,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "dac_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.44564565176787296,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "nominal_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 2.799772861409035,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "nominal_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 9.494120756799818,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "pid_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 2.5834373934630226,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "pid_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 6.772695814210547,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "bias_linear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.4019649688650009,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "bias_linear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.2834377164597328,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "bias_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.3740467429909375,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "bias_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.1779135087987482,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "dob_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.04725762868744764,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "dob_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.021769494012111076,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "l1_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.453067345373945,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "l1_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.7313384704844641,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "nmpc_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.004998294267526758,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "nmpc_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.0008258440314939742,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "dac_linear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 1.5223455654446365,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "dac_linear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 1.2918813684512565,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "dac_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 1.5093337807067988,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "dac_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 1.089147729904853,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "nominal_nonlinear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.1939529220413552,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "nominal_nonlinear",
+    "regime": "periodic",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.22567447674553148,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "pid_nonlinear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.1839174584107629,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "pid_nonlinear",
+    "regime": "periodic",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.20902934610069857,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "bias_linear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.048597466299462766,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "bias_linear",
+    "regime": "periodic",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.08628383461411149,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "bias_nonlinear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.05010846797125229,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "bias_nonlinear",
+    "regime": "periodic",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.08662914592615702,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dob_nonlinear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.018494351917658552,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dob_nonlinear",
+    "regime": "periodic",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.037351083339782515,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "l1_nonlinear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.15974220801526795,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "l1_nonlinear",
+    "regime": "periodic",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.18903320846842708,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "nmpc_nonlinear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.0021592848887807227,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "nmpc_nonlinear",
+    "regime": "periodic",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.00416449842234489,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dac_linear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.18830019583944765,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dac_linear",
+    "regime": "periodic",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.1856092551520414,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dac_nonlinear",
+    "regime": "periodic",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.18837064199832157,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dac_nonlinear",
+    "regime": "periodic",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.1859543814703443,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "nominal_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.2585460043096786,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "nominal_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.7473206344901135,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "pid_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.23885684976499788,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "pid_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.5120879222171976,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "bias_linear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.05312425774592056,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "bias_linear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.019095888336639288,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "bias_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.05449377979758013,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "bias_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.021689447785958695,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "dob_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.01286377744609529,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "dob_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.0033751457644987737,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "l1_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.2048392415978482,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "l1_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.4268022782410998,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "nmpc_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.002527166896052741,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "nmpc_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.0009706961220297028,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "dac_linear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.24190778126653814,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "dac_linear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.4297836434934319,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "dac_nonlinear",
+    "regime": "bias",
+    "phase": "transition",
+    "n": 1,
+    "mean_stage_cost": 0.24250157015356433,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "dac_nonlinear",
+    "regime": "bias",
+    "phase": "later",
+    "n": 1,
+    "mean_stage_cost": 0.4409150729496145,
+    "ci95": [
+      null,
+      null
+    ]
+  }
+]

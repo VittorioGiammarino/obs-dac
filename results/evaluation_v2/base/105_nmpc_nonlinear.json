@@ -1,0 +1,218 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 1000,
+  "position_rmse_observed": 0.017844810066487936,
+  "velocity_rmse_observed": 0.06815464780988134,
+  "cost_with_failure_penalty": 0.3842831941289678,
+  "observed_cost": 0.3842831941289678,
+  "effort_observed": 3.5553027440898752,
+  "attitude_tracking_rmse_observed": 0.07196695089250053,
+  "max_abs_pitch": 0.3564704523755638,
+  "velocity_cost_observed": 0.18580224072355858,
+  "position_cost_observed": 0.12737489852361167,
+  "effort_cost_observed": 0.07110605488179751,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    },
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    },
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    },
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    },
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "iid",
+      "cost_with_failure_penalty": 0.08318530871646512,
+      "position_rmse_observed": 0.010847325550062292
+    },
+    {
+      "segment": 1,
+      "regime": "bias",
+      "cost_with_failure_penalty": 0.01069866622225657,
+      "position_rmse_observed": 0.005399240896239748
+    },
+    {
+      "segment": 2,
+      "regime": "periodic",
+      "cost_with_failure_penalty": 0.025397255910152516,
+      "position_rmse_observed": 0.013156122786201173
+    },
+    {
+      "segment": 3,
+      "regime": "gust",
+      "cost_with_failure_penalty": 0.19215294235682354,
+      "position_rmse_observed": 0.029676448145428462
+    },
+    {
+      "segment": 4,
+      "regime": "chirp",
+      "cost_with_failure_penalty": 0.07284902092327004,
+      "position_rmse_observed": 0.019788754796767224
+    }
+  ],
+  "phases": [
+    {
+      "segment": 0,
+      "regime": "iid",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.01892411310873186,
+      "mean_stage_cost": 0.00946205655436593,
+      "position_rmse": 0.011905053395845985,
+      "effort": 0.2665870305184205
+    },
+    {
+      "segment": 0,
+      "regime": "iid",
+      "phase": "later",
+      "duration": 6.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.06426119560773326,
+      "mean_stage_cost": 0.010710199267955543,
+      "position_rmse": 0.010471032900311107,
+      "effort": 1.1136595898042057
+    },
+    {
+      "segment": 1,
+      "regime": "bias",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.005104025656163884,
+      "mean_stage_cost": 0.002552012828081942,
+      "position_rmse": 0.010687233003157357,
+      "effort": 0.09175236373618241
+    },
+    {
+      "segment": 1,
+      "regime": "bias",
+      "phase": "later",
+      "duration": 6.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.005594640566092685,
+      "mean_stage_cost": 0.0009324400943487809,
+      "position_rmse": 0.0008926103589538927,
+      "effort": 0.27731781462368815
+    },
+    {
+      "segment": 2,
+      "regime": "periodic",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.007509177757247953,
+      "mean_stage_cost": 0.0037545888786239766,
+      "position_rmse": 0.009652315391538553,
+      "effort": 0.07297984457858213
+    },
+    {
+      "segment": 2,
+      "regime": "periodic",
+      "phase": "later",
+      "duration": 6.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.01788807815290456,
+      "mean_stage_cost": 0.0029813463588174265,
+      "position_rmse": 0.014132316095208583,
+      "effort": 0.1490156006075304
+    },
+    {
+      "segment": 3,
+      "regime": "gust",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.06459306623829258,
+      "mean_stage_cost": 0.03229653311914629,
+      "position_rmse": 0.03155923476872238,
+      "effort": 0.3849391690173301
+    },
+    {
+      "segment": 3,
+      "regime": "gust",
+      "phase": "later",
+      "duration": 6.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.12755987611853095,
+      "mean_stage_cost": 0.02125997935308849,
+      "position_rmse": 0.02902172174381275,
+      "effort": 0.8142152748068321
+    },
+    {
+      "segment": 4,
+      "regime": "chirp",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.021945017291764287,
+      "mean_stage_cost": 0.010972508645882144,
+      "position_rmse": 0.015244700312643116,
+      "effort": 0.20343440969508877
+    },
+    {
+      "segment": 4,
+      "regime": "chirp",
+      "phase": "later",
+      "duration": 6.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.05090400363150573,
+      "mean_stage_cost": 0.008484000605250955,
+      "position_rmse": 0.021086949977051444,
+      "effort": 0.18140164670201508
+    }
+  ],
+  "action_ms_mean": 100.49616619393419,
+  "action_ms_p95": 157.7189304991407,
+  "action_ms_p99": 220.8417437088064,
+  "estimation_ms_mean": 0.25213598112168256,
+  "estimation_ms_p95": 0.38501830149471056,
+  "estimation_ms_p99": 0.40748014267592225,
+  "update_ms_mean": 0.0012291769380681217,
+  "update_ms_p95": 0.0019812996470136564,
+  "update_ms_p99": 0.002670089961611666,
+  "total_ms_mean": 100.74953135199394,
+  "total_ms_p95": 157.97988405192882,
+  "total_ms_p99": 221.22548852046745,
+  "deadline_miss_frequency": 0.862,
+  "solver_nonconvergence_frequency": 0.255,
+  "solver_fallback_count": 255,
+  "solver_mean_iterations": 21.152,
+  "seed": 105,
+  "method": "nmpc",
+  "model": "nonlinear",
+  "skipped_updates": 0,
+  "scenario_hash": "bd84a74c7e59e6834edc048277aac44d4e41cd2a0b79ad89ac76e29d82914b6c",
+  "order": [
+    "iid",
+    "bias",
+    "periodic",
+    "gust",
+    "chirp"
+  ],
+  "final_parameters": [],
+  "variant": "base"
+}

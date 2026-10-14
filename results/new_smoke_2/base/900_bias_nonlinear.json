@@ -1,0 +1,149 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 30,
+  "position_rmse_observed": 0.07437824707462234,
+  "velocity_rmse_observed": 0.10840499985374562,
+  "cost_with_failure_penalty": 0.0817566851991907,
+  "observed_cost": 0.0817566851991907,
+  "effort_observed": 0.06346143762595932,
+  "attitude_tracking_rmse_observed": 0.025569086535241734,
+  "max_abs_pitch": 0.10508129774502821,
+  "velocity_cost_observed": 0.014101972791948704,
+  "position_cost_observed": 0.06638548365472281,
+  "effort_cost_observed": 0.0012692287525191866,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "bias",
+      "cost_with_failure_penalty": 0.0817566851991907,
+      "position_rmse_observed": 0.07437824707462234
+    }
+  ],
+  "phases": [
+    {
+      "segment": 0,
+      "regime": "bias",
+      "phase": "transition",
+      "duration": 1.2,
+      "complete": true,
+      "cost_with_failure_penalty": 0.0817566851991907,
+      "mean_stage_cost": 0.06813057099932558,
+      "position_rmse": 0.07437824707462234,
+      "effort": 0.06346143762595932
+    }
+  ],
+  "action_ms_mean": 0.07474926654443455,
+  "action_ms_p95": 0.08018165190151193,
+  "action_ms_p99": 0.10972289874189303,
+  "estimation_ms_mean": 0.1359254998533288,
+  "estimation_ms_p95": 0.14457209854299435,
+  "estimation_ms_p99": 0.14913165770849446,
+  "update_ms_mean": 0.005219866216066293,
+  "update_ms_p95": 0.006207349906617306,
+  "update_ms_p99": 0.00763519092288334,
+  "total_ms_mean": 0.21589463261382966,
+  "total_ms_p95": 0.22987524735071926,
+  "total_ms_p99": 0.25795008728891844,
+  "deadline_miss_frequency": 0.0,
+  "seed": 900,
+  "method": "bias",
+  "model": "nonlinear",
+  "skipped_updates": 0.0,
+  "scenario_hash": "3f51f4d42feaf86cd3aa7f15348da387cdd1ec8f9c1a5ee2bad6ec6c66ced523",
+  "order": [
+    "bias"
+  ],
+  "final_parameters": [
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ]
+  ],
+  "variant": "base"
+}

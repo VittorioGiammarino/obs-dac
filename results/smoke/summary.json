@@ -1,0 +1,457 @@
+[
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "n": 1,
+    "failures": 0,
+    "mean_cost": 0.1997056319338518,
+    "ci95": [
+      null,
+      null
+    ],
+    "metrics": {
+      "position_rmse_observed": {
+        "mean": 0.11464853367049009,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_rmse_observed": {
+        "mean": 0.18497286046107503,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_observed": {
+        "mean": 0.04581228658734771,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "saturation_frequency_observed": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "action_ms_mean": {
+        "mean": 0.11166386663414112,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "estimation_ms_mean": {
+        "mean": 0.17715739997280858,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "update_ms_mean": {
+        "mean": 0.0014133667264104588,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_mean": {
+        "mean": 0.29023463333336014,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p95": {
+        "mean": 0.49411780000809813,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p99": {
+        "mean": 0.7125006598153053,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "deadline_miss_frequency": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    "mean_controller_ms": 0.29023463333336014
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "n": 1,
+    "failures": 0,
+    "mean_cost": 0.08114376641697794,
+    "ci95": [
+      null,
+      null
+    ],
+    "metrics": {
+      "position_rmse_observed": {
+        "mean": 0.07408233356319575,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_rmse_observed": {
+        "mean": 0.10834549610093139,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_observed": {
+        "mean": 0.05994824162631975,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "saturation_frequency_observed": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "action_ms_mean": {
+        "mean": 0.09031396663582807,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "estimation_ms_mean": {
+        "mean": 0.008370333307539113,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "update_ms_mean": {
+        "mean": 0.00697126668759059,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_mean": {
+        "mean": 0.10565556663095776,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p95": {
+        "mean": 0.13775935001376635,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p99": {
+        "mean": 0.21546134974869358,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "deadline_miss_frequency": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    "mean_controller_ms": 0.10565556663095776
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "n": 1,
+    "failures": 0,
+    "mean_cost": 0.0817566851991907,
+    "ci95": [
+      null,
+      null
+    ],
+    "metrics": {
+      "position_rmse_observed": {
+        "mean": 0.07437824707462234,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_rmse_observed": {
+        "mean": 0.10840499985374562,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_observed": {
+        "mean": 0.06346143762595932,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "saturation_frequency_observed": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "action_ms_mean": {
+        "mean": 0.09883620001952902,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "estimation_ms_mean": {
+        "mean": 0.1866728333880019,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "update_ms_mean": {
+        "mean": 0.011103766670809515,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_mean": {
+        "mean": 0.2966128000783404,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p95": {
+        "mean": 0.5165145004184523,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p99": {
+        "mean": 0.557881240201823,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "deadline_miss_frequency": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    "mean_controller_ms": 0.2966128000783404
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "n": 1,
+    "failures": 0,
+    "mean_cost": 0.19855854550064622,
+    "ci95": [
+      null,
+      null
+    ],
+    "metrics": {
+      "position_rmse_observed": {
+        "mean": 0.11439331758127494,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_rmse_observed": {
+        "mean": 0.1838781064410165,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_observed": {
+        "mean": 0.04775912898202669,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "saturation_frequency_observed": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "action_ms_mean": {
+        "mean": 0.14287259999340068,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "estimation_ms_mean": {
+        "mean": 0.021004399968660437,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "update_ms_mean": {
+        "mean": 1.5434453000125359,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_mean": {
+        "mean": 1.7073222999745972,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p95": {
+        "mean": 5.383194899900445,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p99": {
+        "mean": 5.862011630015332,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "deadline_miss_frequency": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    "mean_controller_ms": 1.7073222999745972
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "n": 1,
+    "failures": 0,
+    "mean_cost": 0.19859979571898503,
+    "ci95": [
+      null,
+      null
+    ],
+    "metrics": {
+      "position_rmse_observed": {
+        "mean": 0.11440280438822939,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_rmse_observed": {
+        "mean": 0.1839196862095351,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_observed": {
+        "mean": 0.04760173628953015,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "saturation_frequency_observed": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "action_ms_mean": {
+        "mean": 0.11704993336631257,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "estimation_ms_mean": {
+        "mean": 0.19057693327037367,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "update_ms_mean": {
+        "mean": 3.6584423667742763,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_mean": {
+        "mean": 3.9660692334109626,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p95": {
+        "mean": 12.337938099813073,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p99": {
+        "mean": 12.783400099974642,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "deadline_miss_frequency": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    "mean_controller_ms": 3.9660692334109626
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 1500,
+  "position_rmse_observed": 0.13744940440039316,
+  "velocity_rmse_observed": 0.21626954942795332,
+  "cost_with_failure_penalty": 14.182487646771385,
+  "observed_cost": 14.182487646771385,
+  "effort_observed": 2.0366652085748105,
+  "attitude_tracking_rmse_observed": 0.0188467515415795,
+  "max_abs_pitch": 0.097727331663847,
+  "velocity_cost_observed": 2.8063510805861966,
+  "position_cost_observed": 11.335403262013692,
+  "effort_cost_observed": 0.04073330417149621,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "periodic",
+      "cost_with_failure_penalty": 14.182487646771385,
+      "position_rmse_observed": 0.13744940440039316
+    }
+  ],
+  "phases": [
+    {
+      "segment": 0,
+      "regime": "periodic",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.12233897965004169,
+      "mean_stage_cost": 0.06116948982502084,
+      "position_rmse": 0.05977020150034008,
+      "effort": 0.10396177326528157
+    },
+    {
+      "segment": 0,
+      "regime": "periodic",
+      "phase": "later",
+      "duration": 58.0,
+      "complete": true,
+      "cost_with_failure_penalty": 14.060148667121343,
+      "mean_stage_cost": 0.24241635632967834,
+      "position_rmse": 0.13935784823961525,
+      "effort": 1.9327034353095287
+    }
+  ],
+  "action_ms_mean": 0.08522252335872813,
+  "action_ms_p95": 0.09373830125696259,
+  "action_ms_p99": 0.1479106497572502,
+  "estimation_ms_mean": 0.16330143462497895,
+  "estimation_ms_p95": 0.17385339833708713,
+  "estimation_ms_p99": 0.2672108612023294,
+  "update_ms_mean": 0.0036782173337996937,
+  "update_ms_p95": 0.004342296961112879,
+  "update_ms_p99": 0.005856849493284242,
+  "total_ms_mean": 0.25220217531750677,
+  "total_ms_p95": 0.27846475186379394,
+  "total_ms_p99": 0.39635982120671537,
+  "deadline_miss_frequency": 0.0,
+  "seed": 0,
+  "method": "l1",
+  "model": "nonlinear",
+  "skipped_updates": 0,
+  "scenario_hash": "36d79a9a413354397b3f36864057cfccb0bd4b4f2d319d404a2befb8cd12954d",
+  "order": [
+    "periodic"
+  ],
+  "final_parameters": [],
+  "variant": "base"
+}

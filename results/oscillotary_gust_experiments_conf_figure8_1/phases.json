@@ -1,0 +1,266 @@
+[
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "regime": "oscillatory_gust",
+    "phase": "transition",
+    "n": 3,
+    "mean_stage_cost": 0.15006385913998624,
+    "ci95": [
+      0.03333917499989416,
+      0.30206610125581135
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "regime": "oscillatory_gust",
+    "phase": "later",
+    "n": 3,
+    "mean_stage_cost": 0.2446092561861949,
+    "ci95": [
+      0.20537094930436164,
+      0.2732460985014997
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "regime": "oscillatory_gust",
+    "phase": "transition",
+    "n": 3,
+    "mean_stage_cost": 0.1422267843040041,
+    "ci95": [
+      0.031752039325037826,
+      0.2871228170843703
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "regime": "oscillatory_gust",
+    "phase": "later",
+    "n": 3,
+    "mean_stage_cost": 0.3216721094345807,
+    "ci95": [
+      0.25244001516031817,
+      0.3986084843217987
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "regime": "oscillatory_gust",
+    "phase": "transition",
+    "n": 3,
+    "mean_stage_cost": 0.039984656323787844,
+    "ci95": [
+      0.010390658042165277,
+      0.0796868487894154
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "regime": "oscillatory_gust",
+    "phase": "later",
+    "n": 3,
+    "mean_stage_cost": 0.08530353379954321,
+    "ci95": [
+      0.06981926584733664,
+      0.10005154269281961
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "regime": "oscillatory_gust",
+    "phase": "transition",
+    "n": 3,
+    "mean_stage_cost": 0.040428334542114905,
+    "ci95": [
+      0.01048311185718853,
+      0.08155391627737543
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "regime": "oscillatory_gust",
+    "phase": "later",
+    "n": 3,
+    "mean_stage_cost": 0.08437117061212984,
+    "ci95": [
+      0.06832432028658185,
+      0.09973108764224388
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "regime": "oscillatory_gust",
+    "phase": "transition",
+    "n": 3,
+    "mean_stage_cost": 0.014577729899615853,
+    "ci95": [
+      0.004666256526720239,
+      0.02849143392466101
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "regime": "oscillatory_gust",
+    "phase": "later",
+    "n": 3,
+    "mean_stage_cost": 0.02899168782935639,
+    "ci95": [
+      0.023702920820627926,
+      0.03454510677296375
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "regime": "oscillatory_gust",
+    "phase": "transition",
+    "n": 3,
+    "mean_stage_cost": 0.13120802581415628,
+    "ci95": [
+      0.030434605292797956,
+      0.28430160257636344
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "regime": "oscillatory_gust",
+    "phase": "later",
+    "n": 3,
+    "mean_stage_cost": 0.2667720670462053,
+    "ci95": [
+      0.2070081325861787,
+      0.3430925988227329
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "regime": "oscillatory_gust",
+    "phase": "transition",
+    "n": 3,
+    "mean_stage_cost": 0.0022492907564667162,
+    "ci95": [
+      0.000912613445767542,
+      0.0033034746797419245
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "regime": "oscillatory_gust",
+    "phase": "later",
+    "n": 3,
+    "mean_stage_cost": 0.0029419833088126664,
+    "ci95": [
+      0.002636545136879643,
+      0.003373782512586855
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "regime": "oscillatory_gust",
+    "phase": "transition",
+    "n": 3,
+    "mean_stage_cost": 0.14465919761276894,
+    "ci95": [
+      0.033198403388709836,
+      0.2885265108428204
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "regime": "oscillatory_gust",
+    "phase": "later",
+    "n": 3,
+    "mean_stage_cost": 0.05584056198895848,
+    "ci95": [
+      0.04871923396577438,
+      0.06186719228799344
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "regime": "oscillatory_gust",
+    "phase": "transition",
+    "n": 3,
+    "mean_stage_cost": 0.1447906689758983,
+    "ci95": [
+      0.033201538610486095,
+      0.2888117618754006
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "regime": "oscillatory_gust",
+    "phase": "later",
+    "n": 3,
+    "mean_stage_cost": 0.05422398258429184,
+    "ci95": [
+      0.04658321559356245,
+      0.06209647160289786
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_dac_linear",
+    "regime": "oscillatory_gust",
+    "phase": "transition",
+    "n": 3,
+    "mean_stage_cost": 0.01424797494839959,
+    "ci95": [
+      0.004642227376093675,
+      0.026547843741160423
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_dac_linear",
+    "regime": "oscillatory_gust",
+    "phase": "later",
+    "n": 3,
+    "mean_stage_cost": 0.029408907574290922,
+    "ci95": [
+      0.022624390602283873,
+      0.03454489661677655
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_dac_nonlinear",
+    "regime": "oscillatory_gust",
+    "phase": "transition",
+    "n": 3,
+    "mean_stage_cost": 0.014457484538371743,
+    "ci95": [
+      0.004674080547223131,
+      0.027909793449498996
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_dac_nonlinear",
+    "regime": "oscillatory_gust",
+    "phase": "later",
+    "n": 3,
+    "mean_stage_cost": 0.027446949778141796,
+    "ci95": [
+      0.0215152330518843,
+      0.03302625426855596
+    ]
+  }
+]

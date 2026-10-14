@@ -1,0 +1,497 @@
+[
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "regime": "iid",
+    "n": 3,
+    "mean_cost": 0.22173193824250095,
+    "ci95": [
+      0.09381719336710699,
+      0.3368424319517776
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "regime": "bias",
+    "n": 3,
+    "mean_cost": 7.263940809215753,
+    "ci95": [
+      7.16838055425078,
+      7.42758135453598
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 3.001154576949297,
+    "ci95": [
+      3.0011001466201868,
+      3.001228584914768
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "regime": "gust",
+    "n": 3,
+    "mean_cost": 3.299989991128852,
+    "ci95": [
+      2.303015220136996,
+      4.791829054834094
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 1.2549320286090369,
+    "ci95": [
+      1.0665711850797965,
+      1.4985604671500818
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "regime": "iid",
+    "n": 3,
+    "mean_cost": 0.16726252244327847,
+    "ci95": [
+      0.07396616277331912,
+      0.24595181255447132
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "regime": "bias",
+    "n": 3,
+    "mean_cost": 1.6143006726937488,
+    "ci95": [
+      1.2387999084185597,
+      2.0193603368546933
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 3.8569266524155696,
+    "ci95": [
+      3.836520557897359,
+      3.8719085694742374
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "regime": "gust",
+    "n": 3,
+    "mean_cost": 3.20652032334498,
+    "ci95": [
+      2.149703610460201,
+      4.647464133732376
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 1.7786043063798689,
+    "ci95": [
+      1.2832384917194404,
+      2.0643639489557204
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "regime": "iid",
+    "n": 3,
+    "mean_cost": 0.1049240365599105,
+    "ci95": [
+      0.06192647474590965,
+      0.13082480652255232
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "regime": "bias",
+    "n": 3,
+    "mean_cost": 0.12865255513311302,
+    "ci95": [
+      0.11200725016586695,
+      0.14958327155418613
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 0.8656943346569932,
+    "ci95": [
+      0.8656847980438686,
+      0.8657077021762709
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "regime": "gust",
+    "n": 3,
+    "mean_cost": 1.392618451362359,
+    "ci95": [
+      0.8211225042340717,
+      2.4475958071875255
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 0.8673117658669734,
+    "ci95": [
+      0.8422630676600864,
+      0.9026832852662133
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "regime": "iid",
+    "n": 3,
+    "mean_cost": 0.10386152612388692,
+    "ci95": [
+      0.061740877710373676,
+      0.12920130013151848
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "regime": "bias",
+    "n": 3,
+    "mean_cost": 0.12821781784676864,
+    "ci95": [
+      0.11145993098569822,
+      0.15083277145135818
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 0.8374614139669574,
+    "ci95": [
+      0.8374558031097225,
+      0.8374681288679824
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "regime": "gust",
+    "n": 3,
+    "mean_cost": 1.3459620580613525,
+    "ci95": [
+      0.7955047907665881,
+      2.3660701502213515
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 0.8395278022426657,
+    "ci95": [
+      0.8154577168012246,
+      0.8754229347062009
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "regime": "iid",
+    "n": 3,
+    "mean_cost": 0.07762009781283775,
+    "ci95": [
+      0.05871879486586715,
+      0.09145137018191289
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "regime": "bias",
+    "n": 3,
+    "mean_cost": 0.041661572599184495,
+    "ci95": [
+      0.03528521159901148,
+      0.047003187538976164
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 0.28054837884856937,
+    "ci95": [
+      0.28054716074357083,
+      0.28054960702306564
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "regime": "gust",
+    "n": 3,
+    "mean_cost": 0.6191341004007361,
+    "ci95": [
+      0.4005524563559743,
+      1.0492425414471809
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 0.4046114875078466,
+    "ci95": [
+      0.38952194457483375,
+      0.42985418197291964
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "regime": "iid",
+    "n": 3,
+    "mean_cost": 0.1512439049648714,
+    "ci95": [
+      0.06310396844324957,
+      0.22880904888642392
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "regime": "bias",
+    "n": 3,
+    "mean_cost": 1.3275923670205023,
+    "ci95": [
+      0.9960155368040028,
+      1.7833210623540385
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 3.2351653971372643,
+    "ci95": [
+      3.222880039121138,
+      3.2486545358059344
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "regime": "gust",
+    "n": 3,
+    "mean_cost": 2.7361734186664677,
+    "ci95": [
+      2.0066945795287836,
+      3.7169183982509537
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 1.5921296622495482,
+    "ci95": [
+      1.1051390515935577,
+      1.8742252966011466
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "regime": "iid",
+    "n": 3,
+    "mean_cost": 0.08461767738701936,
+    "ci95": [
+      0.07351088477554152,
+      0.0905164732033875
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "regime": "bias",
+    "n": 3,
+    "mean_cost": 0.016115145681560108,
+    "ci95": [
+      0.013393926756182862,
+      0.018118905655000277
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 0.025572791832189173,
+    "ci95": [
+      0.02544185259934893,
+      0.02572778915997523
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "regime": "gust",
+    "n": 3,
+    "mean_cost": 0.16956194498188795,
+    "ci95": [
+      0.1430474524995924,
+      0.18331759507984655
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 0.05976563087021417,
+    "ci95": [
+      0.0578081546784199,
+      0.06309639231606633
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "regime": "iid",
+    "n": 3,
+    "mean_cost": 0.2068140078022828,
+    "ci95": [
+      0.09097228090955968,
+      0.3091735126279552
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "regime": "bias",
+    "n": 3,
+    "mean_cost": 0.908240363161576,
+    "ci95": [
+      0.7613492238179408,
+      1.0608640270749192
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 0.35639977137485296,
+    "ci95": [
+      0.34496150528019065,
+      0.362546425359598
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "regime": "gust",
+    "n": 3,
+    "mean_cost": 1.1073850862758319,
+    "ci95": [
+      0.5484546137133763,
+      2.033361857474074
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 0.44292193720853223,
+    "ci95": [
+      0.4020026238850356,
+      0.49901872343065157
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "regime": "iid",
+    "n": 3,
+    "mean_cost": 0.20673574368833925,
+    "ci95": [
+      0.09091560673630607,
+      0.30898424248804685
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "regime": "bias",
+    "n": 3,
+    "mean_cost": 0.9319125875441999,
+    "ci95": [
+      0.7795541273078759,
+      1.0829852609566204
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 0.34146764670600965,
+    "ci95": [
+      0.33152953071192753,
+      0.3474682030946596
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "regime": "gust",
+    "n": 3,
+    "mean_cost": 1.1231887056989895,
+    "ci95": [
+      0.5247918691889417,
+      2.1432236438916994
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "regime": "chirp",
+    "n": 3,
+    "mean_cost": 0.40272547343822457,
+    "ci95": [
+      0.3543234471924883,
+      0.45326528240110403
+    ]
+  }
+]

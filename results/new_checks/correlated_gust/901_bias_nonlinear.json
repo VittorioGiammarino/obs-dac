@@ -1,0 +1,160 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 75,
+  "position_rmse_observed": 0.06285286809887848,
+  "velocity_rmse_observed": 0.10964822288445257,
+  "cost_with_failure_penalty": 0.15633198798514897,
+  "observed_cost": 0.15633198798514897,
+  "effort_observed": 0.0874649396171344,
+  "attitude_tracking_rmse_observed": 0.029117889071462913,
+  "max_abs_pitch": 0.1319994559038932,
+  "velocity_cost_observed": 0.03606819834515577,
+  "position_cost_observed": 0.11851449084765048,
+  "effort_cost_observed": 0.0017492987923426882,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "gust",
+      "cost_with_failure_penalty": 0.15633198798514897,
+      "position_rmse_observed": 0.06285286809887848
+    }
+  ],
+  "phases": [
+    {
+      "segment": 0,
+      "regime": "gust",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.03987691818918227,
+      "mean_stage_cost": 0.019938459094591136,
+      "position_rmse": 0.02838236293718209,
+      "effort": 0.07109052395665977
+    },
+    {
+      "segment": 0,
+      "regime": "gust",
+      "phase": "later",
+      "duration": 1.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.11645506979596668,
+      "mean_stage_cost": 0.11645506979596668,
+      "position_rmse": 0.10119452570652818,
+      "effort": 0.01637441566047466
+    }
+  ],
+  "action_ms_mean": 0.07868673351670925,
+  "action_ms_p95": 0.0928994020796381,
+  "action_ms_p99": 0.12098129998776162,
+  "estimation_ms_mean": 0.12378282675247951,
+  "estimation_ms_p95": 0.1461478001147043,
+  "estimation_ms_p99": 0.1483925982756773,
+  "update_ms_mean": 0.005408960035614048,
+  "update_ms_p95": 0.006401800783351063,
+  "update_ms_p99": 0.009061299133463808,
+  "total_ms_mean": 0.2078785203048028,
+  "total_ms_p95": 0.24167720221157651,
+  "total_ms_p99": 0.27211070038902146,
+  "deadline_miss_frequency": 0.0,
+  "seed": 901,
+  "method": "bias",
+  "model": "nonlinear",
+  "skipped_updates": 0,
+  "scenario_hash": "d94a6f95e59a640a56f6ed91fb918b9e1d96fc23e7cc07ad32eb47b8bd7dbc29",
+  "order": [
+    "gust"
+  ],
+  "final_parameters": [
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ]
+  ],
+  "variant": "correlated_gust"
+}

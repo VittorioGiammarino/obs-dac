@@ -1,0 +1,686 @@
+[
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "nominal_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": -10.959393586494144,
+    "ci95": [
+      -12.551095894841689,
+      -9.08608103286043
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "nominal_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": -0.07578710482667123,
+    "ci95": [
+      -0.08458031291638603,
+      -0.0693818726953054
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "nominal_nonlinear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": 0.13345472156766616,
+    "ci95": [
+      0.06309801837156037,
+      0.23462021717252401
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "pid_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": -15.413364925228562,
+    "ci95": [
+      -19.80815266309574,
+      -11.812912581156198
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "pid_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": -0.09545927723869807,
+    "ci95": [
+      -0.11635674611319897,
+      -0.08250762299468069
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "pid_nonlinear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": 0.00984877689793843,
+    "ci95": [
+      -0.08595942853276517,
+      0.0960028118801759
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "bias_linear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": -1.4995032824359527,
+    "ci95": [
+      -1.7970129993731083,
+      -1.178186358437522
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "bias_linear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": -0.011894414481704058,
+    "ci95": [
+      -0.013184449131226753,
+      -0.01009275047386711
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "bias_linear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": -0.21888117516650882,
+    "ci95": [
+      -0.327183128735534,
+      -0.08325086706652973
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "bias_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": -1.4463135740026312,
+    "ci95": [
+      -1.7821607414156349,
+      -1.09166442354379
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "bias_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": -0.011312612939546407,
+    "ci95": [
+      -0.012851791622727302,
+      -0.009241314683116217
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "bias_nonlinear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": -0.21231676930375132,
+    "ci95": [
+      -0.3276785239034221,
+      -0.07028622737852164
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "dob_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": 1.8173976366832274,
+    "ci95": [
+      1.5080104561424736,
+      2.1047511137080415
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "dob_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": 0.023218798875440056,
+    "ci95": [
+      0.021654754844423595,
+      0.024485426338032454
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "dob_nonlinear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": 0.10920594632902736,
+    "ci95": [
+      0.024256404162822154,
+      0.21762634520691027
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "l1_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": -12.207124949723095,
+    "ci95": [
+      -16.53039605029133,
+      -9.17522852379163
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "l1_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": -0.08041319537859871,
+    "ci95": [
+      -0.10289247319219678,
+      -0.06831455781162775
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "l1_nonlinear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": 0.13736639360023348,
+    "ci95": [
+      0.08571006148413463,
+      0.23257957247801198
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "nmpc_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": 3.352937377161062,
+    "ci95": [
+      2.737367531961779,
+      3.963063839299739
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "nmpc_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": 0.05726560838866699,
+    "ci95": [
+      0.052061505715440805,
+      0.061997643634382
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "nmpc_nonlinear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": 0.24123746227828255,
+    "ci95": [
+      0.13919257320556744,
+      0.31714515331838156
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "dob_dac_linear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": 1.7938584013794572,
+    "ci95": [
+      1.5706132671076813,
+      2.1086504831338995
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "dob_dac_linear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": 0.022500660872118244,
+    "ci95": [
+      0.02117809600777558,
+      0.023903940675996202
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "dob_dac_linear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": 0.0873940652728391,
+    "ci95": [
+      0.01952016174476734,
+      0.1387631304178687
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "dob_dac_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": 1.9072329343761625,
+    "ci95": [
+      1.6348806986885982,
+      2.1940078399140166
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "dob_dac_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": 0.02440227200233389,
+    "ci95": [
+      0.023623512811129687,
+      0.02533677695188564
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_linear",
+    "right": "dob_dac_nonlinear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": 0.11444401101110395,
+    "ci95": [
+      0.043160633916503155,
+      0.2181188530602216
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "nominal_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": -11.052892249238553,
+    "ci95": [
+      -12.721577790259786,
+      -9.209963828005169
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "nominal_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": -0.07689005133801619,
+    "ci95": [
+      -0.08648148811333811,
+      -0.07093478984667308
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "nominal_nonlinear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": 0.10956652946395422,
+    "ci95": [
+      0.08024159144721299,
+      0.16459113992426033
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "pid_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": -15.506863587972967,
+    "ci95": [
+      -19.978634558513836,
+      -11.936795376300937
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "pid_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": -0.09656222375004303,
+    "ci95": [
+      -0.11825792131015106,
+      -0.08406054014604837
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "pid_nonlinear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": -0.014039415205773528,
+    "ci95": [
+      -0.06519058988393622,
+      0.025973734631912215
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "bias_linear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": -1.5930019451803592,
+    "ci95": [
+      -1.783144297043492,
+      -1.302069153582262
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "bias_linear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": -0.012997360993049023,
+    "ci95": [
+      -0.014307219036970395,
+      -0.011645667625234793
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "bias_linear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": -0.24276936727022078,
+    "ci95": [
+      -0.30641429008670507,
+      -0.15327994431479341
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "bias_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": -1.5398122367470382,
+    "ci95": [
+      -1.7682920390860186,
+      -1.2155472186885299
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "bias_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": -0.012415559450891372,
+    "ci95": [
+      -0.01374590770974779,
+      -0.0107942318344839
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "bias_nonlinear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": -0.23620496140746328,
+    "ci95": [
+      -0.30690968525459317,
+      -0.14031530462678532
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "dob_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": 1.7238989739388206,
+    "ci95": [
+      1.3841276609977335,
+      2.1186198160376577
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "dob_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": 0.022115852364095096,
+    "ci95": [
+      0.02010183769305591,
+      0.024630679152317328
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "dob_nonlinear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": 0.0853177542253154,
+    "ci95": [
+      0.001852066451121015,
+      0.14759726795864658
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "l1_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": -12.300623612467499,
+    "ci95": [
+      -16.700877945709426,
+      -9.299111318936369
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "l1_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": -0.08151614188994367,
+    "ci95": [
+      -0.10479364838914888,
+      -0.06986747496299543
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "l1_nonlinear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": 0.1134782014965215,
+    "ci95": [
+      0.06330572377243349,
+      0.1625504952297483
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "nmpc_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": 3.259438714416655,
+    "ci95": [
+      2.6134847368170395,
+      3.976932541629355
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "nmpc_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": 0.056162661877322016,
+    "ci95": [
+      0.05050858856407312,
+      0.062142896448666864
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "nmpc_nonlinear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": 0.2173492701745706,
+    "ci95": [
+      0.1167882354938663,
+      0.2881434989597276
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "dob_dac_linear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": 1.7003597386350504,
+    "ci95": [
+      1.4467304719629415,
+      2.1225191854635157
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "dob_dac_linear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": 0.02139771436077328,
+    "ci95": [
+      0.019276920810823495,
+      0.024049193490281076
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "dob_dac_linear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": 0.06350587316912715,
+    "ci95": [
+      -0.0028841759669337996,
+      0.12466774230471023
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "dob_dac_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": 1.8137342716317555,
+    "ci95": [
+      1.5109979035438583,
+      2.207876542243633
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "dob_dac_nonlinear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": 0.023299325490988926,
+    "ci95": [
+      0.022070595659762004,
+      0.025482029766170516
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "dob_dac_nonlinear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": 0.09055581890739199,
+    "ci95": [
+      0.020756296204802016,
+      0.14808977581195792
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "dac_linear",
+    "metric": "cost_with_failure_penalty",
+    "n": 3,
+    "mean_difference": -0.09349866274440677,
+    "ci95": [
+      -0.17048189541809666,
+      0.013868702329616234
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "dac_linear",
+    "metric": "position_rmse_observed",
+    "n": 3,
+    "mean_difference": -0.0011029465113449645,
+    "ci95": [
+      -0.0019011751969520846,
+      0.00014525281428487413
+    ]
+  },
+  {
+    "variant": "base",
+    "left": "dac_nonlinear",
+    "right": "dac_linear",
+    "metric": "effort_observed",
+    "n": 3,
+    "mean_difference": -0.023888192103711958,
+    "ci95": [
+      -0.07002907724826368,
+      0.020768838648828947
+    ]
+  }
+]

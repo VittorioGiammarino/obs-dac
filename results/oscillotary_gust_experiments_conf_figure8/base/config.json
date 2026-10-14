@@ -1,0 +1,203 @@
+{
+  "dt": 0.04,
+  "substeps": 2,
+  "true_params": {
+    "mass": 1.0,
+    "inertia": 0.02,
+    "arm": 0.2,
+    "gravity": 9.81,
+    "rotor_max": 10.0,
+    "drag": 0.0,
+    "angular_drag": 0.0
+  },
+  "nominal_params": {
+    "mass": 1.0,
+    "inertia": 0.02,
+    "arm": 0.2,
+    "gravity": 9.81,
+    "rotor_max": 10.0,
+    "drag": 0.0,
+    "angular_drag": 0.0
+  },
+  "controller": {
+    "kp": [
+      2.0,
+      2.0
+    ],
+    "kd": [
+      2.8,
+      2.8
+    ],
+    "attitude_kp": 100.0,
+    "attitude_kd": 20.0,
+    "tilt_max": 0.65,
+    "min_vertical_accel": 2.0
+  },
+  "correction_bound": 2.0,
+  "bias_time_constant": 0.4,
+  "dac": {
+    "history": 8,
+    "replay": 25,
+    "update_every": 2,
+    "learning_rate": 0.03,
+    "gradient_clip": 10.0,
+    "parameter_radius": 2.0,
+    "regularization": 0.001
+  },
+  "cost": {
+    "position": 10.0,
+    "velocity": 1.0,
+    "effort": 0.02,
+    "hover_rotor": 4.905
+  },
+  "reference": {
+    "kind": "gentle",
+    "amplitude": 0.5,
+    "frequency": 0.08
+  },
+  "initial_offset": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scenario": {
+    "regimes": [
+      "oscillatory_gust"
+    ],
+    "switches": 0,
+    "duration": 60.0,
+    "randomized": false,
+    "random_phase": true,
+    "amplitude": [
+      0.424264,
+      0.212132
+    ],
+    "frequency": 0.25,
+    "chirp_rate": 0.01,
+    "correlation_time": 2.0
+  },
+  "failure": {
+    "pitch": 1.2,
+    "min_altitude": 0.1,
+    "position_error": 5.0,
+    "tail_stage_penalty": 1000.0
+  },
+  "recovery": {
+    "window": 0.4,
+    "persistence": 0.4,
+    "threshold": 0.2
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "save_timeseries": true,
+  "methods": [
+    [
+      "nominal",
+      "nonlinear"
+    ],
+    [
+      "pid",
+      "nonlinear"
+    ],
+    [
+      "bias",
+      "linear"
+    ],
+    [
+      "bias",
+      "nonlinear"
+    ],
+    [
+      "dob",
+      "nonlinear"
+    ],
+    [
+      "l1",
+      "nonlinear"
+    ],
+    [
+      "nmpc",
+      "nonlinear"
+    ],
+    [
+      "dac",
+      "linear"
+    ],
+    [
+      "dac",
+      "nonlinear"
+    ],
+    [
+      "dob_dac",
+      "nonlinear"
+    ],
+    [
+      "dob_dac",
+      "linear"
+    ]
+  ],
+  "pid": {
+    "ki": [
+      0.8,
+      0.8
+    ]
+  },
+  "dob": {
+    "process_density": [
+      0.3,
+      0.3,
+      1.0
+    ],
+    "measurement_variance": [
+      0.0004,
+      0.0004,
+      0.001
+    ],
+    "initial_disturbance_variance": [
+      1.0,
+      1.0,
+      4.0
+    ],
+    "estimate_bound": [
+      8.0,
+      8.0,
+      30.0
+    ],
+    "torque_bound": 0.2
+  },
+  "l1": {
+    "predictor_rates": [
+      5.0,
+      5.0,
+      5.0
+    ],
+    "filter_bandwidth": [
+      10.0,
+      10.0
+    ],
+    "estimate_bound": [
+      8.0,
+      8.0,
+      30.0
+    ],
+    "input_bounds": [
+      2.0,
+      0.2
+    ]
+  },
+  "mpc": {
+    "horizon": 20,
+    "move_block": 2,
+    "max_iterations": 35,
+    "ftol": 1e-08,
+    "gtol": 1e-05,
+    "terminal_scale": 1.0
+  },
+  "transition_window": 2.0
+}

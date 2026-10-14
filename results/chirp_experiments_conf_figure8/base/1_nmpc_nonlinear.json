@@ -1,0 +1,82 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 1500,
+  "position_rmse_observed": 0.02283877475547439,
+  "velocity_rmse_observed": 0.08901147786335306,
+  "cost_with_failure_penalty": 0.8460285553282223,
+  "observed_cost": 0.8460285553282223,
+  "effort_observed": 2.8840092222177085,
+  "attitude_tracking_rmse_observed": 0.0758934730524082,
+  "max_abs_pitch": 0.16221999226287834,
+  "velocity_cost_observed": 0.47538259148509154,
+  "position_cost_observed": 0.31296577939877657,
+  "effort_cost_observed": 0.05768018444435417,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "chirp",
+      "cost_with_failure_penalty": 0.8460285553282223,
+      "position_rmse_observed": 0.02283877475547439
+    }
+  ],
+  "phases": [
+    {
+      "segment": 0,
+      "regime": "chirp",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.008737139099877354,
+      "mean_stage_cost": 0.004368569549938677,
+      "position_rmse": 0.014902466868124587,
+      "effort": 0.059589602583722964
+    },
+    {
+      "segment": 0,
+      "regime": "chirp",
+      "phase": "later",
+      "duration": 58.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.837291416228345,
+      "mean_stage_cost": 0.014436058900488708,
+      "position_rmse": 0.023063783709667413,
+      "effort": 2.8244196196339857
+    }
+  ],
+  "action_ms_mean": 159.16838473469397,
+  "action_ms_p95": 233.25834364877664,
+  "action_ms_p99": 246.00876773281925,
+  "estimation_ms_mean": 0.3563386520036147,
+  "estimation_ms_p95": 0.3782900503210839,
+  "estimation_ms_p99": 0.3887853998094215,
+  "update_ms_mean": 0.0014800960173791584,
+  "update_ms_p95": 0.0023961483748280443,
+  "update_ms_p99": 0.003138190477329772,
+  "total_ms_mean": 159.52620348271495,
+  "total_ms_p95": 233.6191863998465,
+  "total_ms_p99": 246.39343900391395,
+  "deadline_miss_frequency": 0.9993333333333333,
+  "solver_nonconvergence_frequency": 0.11666666666666667,
+  "solver_fallback_count": 175,
+  "solver_mean_iterations": 22.762666666666668,
+  "seed": 1,
+  "method": "nmpc",
+  "model": "nonlinear",
+  "skipped_updates": 0,
+  "scenario_hash": "73a4d51d325d0bb8bd391b12cbc72b42c99295f42aa71edd8ed7b8e218cd5cba",
+  "order": [
+    "chirp"
+  ],
+  "final_parameters": [],
+  "variant": "base"
+}

@@ -1,0 +1,160 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 75,
+  "position_rmse_observed": 0.1851721821761639,
+  "velocity_rmse_observed": 0.136446754629463,
+  "cost_with_failure_penalty": 1.0876962924362,
+  "observed_cost": 1.0876962924362,
+  "effort_observed": 0.15905151664941206,
+  "attitude_tracking_rmse_observed": 0.01205274209147948,
+  "max_abs_pitch": 0.09661652714934266,
+  "velocity_cost_observed": 0.05585315054673865,
+  "position_cost_observed": 1.0286621115564731,
+  "effort_cost_observed": 0.003181030332988241,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "bias",
+      "cost_with_failure_penalty": 1.0876962924362,
+      "position_rmse_observed": 0.1851721821761639
+    }
+  ],
+  "phases": [
+    {
+      "segment": 0,
+      "regime": "bias",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.6582782120750499,
+      "mean_stage_cost": 0.3291391060375249,
+      "position_rmse": 0.1748741231867171,
+      "effort": 0.1038707935314156
+    },
+    {
+      "segment": 0,
+      "regime": "bias",
+      "phase": "later",
+      "duration": 1.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.42941808036115,
+      "mean_stage_cost": 0.42941808036115,
+      "position_rmse": 0.20421629032719468,
+      "effort": 0.055180723117996495
+    }
+  ],
+  "action_ms_mean": 0.11407197331815647,
+  "action_ms_p95": 0.18734369969024556,
+  "action_ms_p99": 0.827746699142156,
+  "estimation_ms_mean": 0.013523893236803513,
+  "estimation_ms_p95": 0.016503800725331527,
+  "estimation_ms_p99": 0.0930438992145365,
+  "update_ms_mean": 1.4964767598818678,
+  "update_ms_p95": 4.058786099813005,
+  "update_ms_p99": 6.213370319928812,
+  "total_ms_mean": 1.6240726264368277,
+  "total_ms_p95": 4.211452198615006,
+  "total_ms_p99": 6.345029339427141,
+  "deadline_miss_frequency": 0.0,
+  "seed": 901,
+  "method": "dac",
+  "model": "linear",
+  "skipped_updates": 0,
+  "scenario_hash": "58158aaa5b155d4eb54b0db718c25f421ddb16bee3ddd95ac8371460645812f8",
+  "order": [
+    "bias"
+  ],
+  "final_parameters": [
+    [
+      [
+        -0.11766473494261108,
+        -0.05096179189302266
+      ],
+      [
+        -0.06764766442613554,
+        -0.028855345325871945
+      ]
+    ],
+    [
+      [
+        -0.1157698358397716,
+        -0.05025822585313974
+      ],
+      [
+        -0.06701025148326327,
+        -0.0286599372187279
+      ]
+    ],
+    [
+      [
+        -0.11394730300226073,
+        -0.049592281984677605
+      ],
+      [
+        -0.0663621199778412,
+        -0.02846285262675608
+      ]
+    ],
+    [
+      [
+        -0.11177963193657517,
+        -0.048756812419969923
+      ],
+      [
+        -0.06557944773396938,
+        -0.02820288126307417
+      ]
+    ],
+    [
+      [
+        -0.10972531755701209,
+        -0.047978369130614984
+      ],
+      [
+        -0.06479703186223638,
+        -0.02794599060833725
+      ]
+    ],
+    [
+      [
+        -0.1073275667161516,
+        -0.04703000410881849
+      ],
+      [
+        -0.0638719495540923,
+        -0.0276212999709115
+      ]
+    ],
+    [
+      [
+        -0.1050846001961436,
+        -0.04615842895577416
+      ],
+      [
+        -0.0629601691403398,
+        -0.027305478100016604
+      ]
+    ],
+    [
+      [
+        -0.10250520430517418,
+        -0.045119324891156026
+      ],
+      [
+        -0.061899111064992074,
+        -0.02691770773356892
+      ]
+    ]
+  ],
+  "variant": "inertia_error"
+}

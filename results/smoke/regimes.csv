@@ -1,0 +1,6 @@
+variant,controller,regime,n,mean_cost,ci95
+base,nominal_nonlinear,bias,1,0.1997056319338518,"[None, None]"
+base,bias_linear,bias,1,0.08114376641697794,"[None, None]"
+base,bias_nonlinear,bias,1,0.0817566851991907,"[None, None]"
+base,dac_linear,bias,1,0.19855854550064622,"[None, None]"
+base,dac_nonlinear,bias,1,0.19859979571898503,"[None, None]"

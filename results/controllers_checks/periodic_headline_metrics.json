@@ -1,0 +1,380 @@
+[
+  {
+    "variant": "periodic",
+    "controller": "nominal_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.1316802330042639,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "pid_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.12377603290482954,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "bias_linear",
+    "metric": "position_rmse_observed",
+    "mean": 0.06708057497380891,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "bias_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.06771704055429804,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dob_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.04306956593740509,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "l1_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.11654089460198531,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "nmpc_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.013185680327354841,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dac_linear",
+    "metric": "position_rmse_observed",
+    "mean": 0.12681010483585514,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dac_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.12683598009631467,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "nominal_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.6135803208282419,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "pid_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.5768642629222245,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "bias_linear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.18347876721303702,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "bias_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.1868460818686616,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dob_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.07433978717509962,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "l1_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.5085176244989631,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "nmpc_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.008549955147637324,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dac_linear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.5622096468309367,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dac_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.5626956654669875,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "nominal_nonlinear",
+    "metric": "effort_observed",
+    "mean": 0.08525626292698445,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "pid_nonlinear",
+    "metric": "effort_observed",
+    "mean": 0.0894053498981064,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "bias_linear",
+    "metric": "effort_observed",
+    "mean": 0.1145841854560602,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "bias_nonlinear",
+    "metric": "effort_observed",
+    "mean": 0.11933170244251662,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dob_nonlinear",
+    "metric": "effort_observed",
+    "mean": 0.10191288122682568,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "l1_nonlinear",
+    "metric": "effort_observed",
+    "mean": 0.09607737302815446,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "nmpc_nonlinear",
+    "metric": "effort_observed",
+    "mean": 0.09147702606261007,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dac_linear",
+    "metric": "effort_observed",
+    "mean": 0.10288904447489985,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dac_nonlinear",
+    "metric": "effort_observed",
+    "mean": 0.10153724975216644,
+    "ci95_low": null,
+    "ci95_high": null,
+    "n": 1,
+    "failures": 0,
+    "available_seeds": 1,
+    "seeds": [
+      901
+    ]
+  }
+]

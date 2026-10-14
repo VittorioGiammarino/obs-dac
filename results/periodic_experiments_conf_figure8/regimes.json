@@ -1,0 +1,123 @@
+[
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 12.252398162291406,
+    "ci95": [
+      12.2299540613068,
+      12.279265773559834
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 16.353893671392697,
+    "ci95": [
+      16.311363999843426,
+      16.377301765043327
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 7.142478906922147,
+    "ci95": [
+      7.135966645160624,
+      7.152242366402601
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 7.048907499277791,
+    "ci95": [
+      7.04175100242414,
+      7.059378056265157
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 2.379438688298651,
+    "ci95": [
+      2.37716182249123,
+      2.382325785859669
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 14.165948318213898,
+    "ci95": [
+      14.116695508166478,
+      14.198661799703826
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 0.18845622014702268,
+    "ci95": [
+      0.18728669038104925,
+      0.18930249565303592
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 1.6896808190934236,
+    "ci95": [
+      1.6663105280498798,
+      1.7241377018385389
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 1.6592282706259305,
+    "ci95": [
+      1.641602740869678,
+      1.6801905827347827
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_dac_linear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 0.9379614535233255,
+    "ci95": [
+      0.936247270976503,
+      0.9408318365194107
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_dac_nonlinear",
+    "regime": "periodic",
+    "n": 3,
+    "mean_cost": 0.867492066403674,
+    "ci95": [
+      0.862183509867417,
+      0.8703355898924422
+    ]
+  }
+]

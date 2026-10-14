@@ -1,0 +1,79 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 1500,
+  "position_rmse_observed": 0.0736764198633354,
+  "velocity_rmse_observed": 0.1937712898258097,
+  "cost_with_failure_penalty": 5.528552288260584,
+  "observed_cost": 5.528552288260584,
+  "effort_observed": 0.9392308144008391,
+  "attitude_tracking_rmse_observed": 0.030385877940180123,
+  "max_abs_pitch": 0.09887659737327853,
+  "velocity_cost_observed": 2.2528387656454765,
+  "position_cost_observed": 3.2569289063270896,
+  "effort_cost_observed": 0.01878461628801678,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "chirp",
+      "cost_with_failure_penalty": 5.528552288260584,
+      "position_rmse_observed": 0.0736764198633354
+    }
+  ],
+  "phases": [
+    {
+      "segment": 0,
+      "regime": "chirp",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.2188095609673636,
+      "mean_stage_cost": 0.1094047804836818,
+      "position_rmse": 0.08691654673868272,
+      "effort": 0.0323445389028924
+    },
+    {
+      "segment": 0,
+      "regime": "chirp",
+      "phase": "later",
+      "duration": 58.0,
+      "complete": true,
+      "cost_with_failure_penalty": 5.309742727293219,
+      "mean_stage_cost": 0.09154728840160722,
+      "position_rmse": 0.07317714906646577,
+      "effort": 0.9068862754979468
+    }
+  ],
+  "action_ms_mean": 0.054728530679615986,
+  "action_ms_p95": 0.05791855128336465,
+  "action_ms_p99": 0.06718648935930105,
+  "estimation_ms_mean": 0.0767099946339537,
+  "estimation_ms_p95": 0.08150794765242608,
+  "estimation_ms_p99": 0.0891306697303662,
+  "update_ms_mean": 0.004331160766014364,
+  "update_ms_p95": 0.004755298323289026,
+  "update_ms_p99": 0.006183843252074439,
+  "total_ms_mean": 0.13576968607958406,
+  "total_ms_p95": 0.14424620094359852,
+  "total_ms_p99": 0.15930939793179277,
+  "deadline_miss_frequency": 0.0,
+  "seed": 1,
+  "method": "pid",
+  "model": "nonlinear",
+  "skipped_updates": 0,
+  "scenario_hash": "b71feafc3e7837d8109b2260581a816fa990e41277e2810d4ae2e3b8cf5bb5fe",
+  "order": [
+    "chirp"
+  ],
+  "final_parameters": [],
+  "variant": "base"
+}

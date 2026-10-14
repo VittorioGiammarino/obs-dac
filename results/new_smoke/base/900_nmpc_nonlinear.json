@@ -1,0 +1,71 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 30,
+  "position_rmse_observed": 0.010813081595641778,
+  "velocity_rmse_observed": 0.03976243500064207,
+  "cost_with_failure_penalty": 0.005248815858437715,
+  "observed_cost": 0.005248815858437715,
+  "effort_observed": 0.09742407853466452,
+  "attitude_tracking_rmse_observed": 0.07011123255032065,
+  "max_abs_pitch": 0.12136976867315367,
+  "velocity_cost_observed": 0.0018972614846163422,
+  "position_cost_observed": 0.0014030728031280834,
+  "effort_cost_observed": 0.0019484815706932903,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "bias",
+      "cost_with_failure_penalty": 0.005248815858437715,
+      "position_rmse_observed": 0.010813081595641778
+    }
+  ],
+  "phases": [
+    {
+      "segment": 0,
+      "regime": "bias",
+      "phase": "transition",
+      "duration": 1.2,
+      "complete": true,
+      "cost_with_failure_penalty": 0.005248815858437715,
+      "mean_stage_cost": 0.004374013215364762,
+      "position_rmse": 0.010813081595641778,
+      "effort": 0.09742407853466452
+    }
+  ],
+  "action_ms_mean": 168.13208313336267,
+  "action_ms_p95": 232.86589964736777,
+  "action_ms_p99": 240.33856711903354,
+  "estimation_ms_mean": 0.3679326661464681,
+  "estimation_ms_p95": 0.38853494879731443,
+  "estimation_ms_p99": 0.3911537585736369,
+  "update_ms_mean": 0.0016633337509119883,
+  "update_ms_p95": 0.0025503995857434343,
+  "update_ms_p99": 0.0026354403235018258,
+  "total_ms_mean": 168.50167913326004,
+  "total_ms_p95": 233.2522581467856,
+  "total_ms_p99": 240.7105107779353,
+  "deadline_miss_frequency": 1.0,
+  "solver_nonconvergence_frequency": 0.23333333333333334,
+  "solver_fallback_count": 7,
+  "solver_mean_iterations": 24.166666666666668,
+  "seed": 900,
+  "method": "nmpc",
+  "model": "nonlinear",
+  "skipped_updates": 0,
+  "scenario_hash": "3f51f4d42feaf86cd3aa7f15348da387cdd1ec8f9c1a5ee2bad6ec6c66ced523",
+  "order": [
+    "bias"
+  ],
+  "final_parameters": [],
+  "variant": "base"
+}

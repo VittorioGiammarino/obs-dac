@@ -1,0 +1,296 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 1000,
+  "position_rmse_observed": 0.0702055146517405,
+  "velocity_rmse_observed": 0.13684130965664684,
+  "cost_with_failure_penalty": 2.7509313425252673,
+  "observed_cost": 2.7509313425252673,
+  "effort_observed": 1.5191933188557167,
+  "attitude_tracking_rmse_observed": 0.029179890329964566,
+  "max_abs_pitch": 0.16954639905223723,
+  "velocity_cost_observed": 0.7490217611418524,
+  "position_cost_observed": 1.9715257150063004,
+  "effort_cost_observed": 0.030383866377114335,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    },
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    },
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    },
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    },
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "iid",
+      "cost_with_failure_penalty": 0.11553569778742082,
+      "position_rmse_observed": 0.027273515243134643
+    },
+    {
+      "segment": 1,
+      "regime": "bias",
+      "cost_with_failure_penalty": 0.11841860637543666,
+      "position_rmse_observed": 0.034373883413060184
+    },
+    {
+      "segment": 2,
+      "regime": "periodic",
+      "cost_with_failure_penalty": 0.8374676895361735,
+      "position_rmse_observed": 0.0930117860359186
+    },
+    {
+      "segment": 3,
+      "regime": "gust",
+      "cost_with_failure_penalty": 0.8155185321918333,
+      "position_rmse_observed": 0.08459604722304848
+    },
+    {
+      "segment": 4,
+      "regime": "chirp",
+      "cost_with_failure_penalty": 0.8639908166344026,
+      "position_rmse_observed": 0.08313230055526463
+    }
+  ],
+  "phases": [
+    {
+      "segment": 0,
+      "regime": "iid",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.03842048187230681,
+      "mean_stage_cost": 0.019210240936153405,
+      "position_rmse": 0.02890724122191105,
+      "effort": 0.03087147726921094
+    },
+    {
+      "segment": 0,
+      "regime": "iid",
+      "phase": "later",
+      "duration": 6.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.07711521591511397,
+      "mean_stage_cost": 0.012852535985852329,
+      "position_rmse": 0.02670674034651326,
+      "effort": 0.10441544279491934
+    },
+    {
+      "segment": 1,
+      "regime": "bias",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.09922141625948254,
+      "mean_stage_cost": 0.04961070812974126,
+      "position_rmse": 0.06390717194137469,
+      "effort": 0.0893662845616217
+    },
+    {
+      "segment": 1,
+      "regime": "bias",
+      "phase": "later",
+      "duration": 6.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.019197190115954128,
+      "mean_stage_cost": 0.0031995316859923548,
+      "position_rmse": 0.014630206401303062,
+      "effort": 0.2734605613421152
+    },
+    {
+      "segment": 2,
+      "regime": "periodic",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.027292045078944182,
+      "mean_stage_cost": 0.013646022539472091,
+      "position_rmse": 0.027334657430963454,
+      "effort": 0.0407258973407092
+    },
+    {
+      "segment": 2,
+      "regime": "periodic",
+      "phase": "later",
+      "duration": 6.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.8101756444572294,
+      "mean_stage_cost": 0.1350292740762049,
+      "position_rmse": 0.10623493755116202,
+      "effort": 0.2341886480582208
+    },
+    {
+      "segment": 3,
+      "regime": "gust",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.10166403270382064,
+      "mean_stage_cost": 0.05083201635191032,
+      "position_rmse": 0.04672177263912544,
+      "effort": 0.051797404260230766
+    },
+    {
+      "segment": 3,
+      "regime": "gust",
+      "phase": "later",
+      "duration": 6.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.7138544994880128,
+      "mean_stage_cost": 0.1189757499146688,
+      "position_rmse": 0.09388475343830659,
+      "effort": 0.3692061027826647
+    },
+    {
+      "segment": 4,
+      "regime": "chirp",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.10964678165833448,
+      "mean_stage_cost": 0.054823390829167234,
+      "position_rmse": 0.06538567155896294,
+      "effort": 0.0811231930628577
+    },
+    {
+      "segment": 4,
+      "regime": "chirp",
+      "phase": "later",
+      "duration": 6.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.7543440349760681,
+      "mean_stage_cost": 0.12572400582934468,
+      "position_rmse": 0.08825839249466466,
+      "effort": 0.24403830738316637
+    }
+  ],
+  "action_ms_mean": 0.05179200603015488,
+  "action_ms_p95": 0.061208199622342335,
+  "action_ms_p99": 0.08545835211407393,
+  "estimation_ms_mean": 0.08319928805576637,
+  "estimation_ms_p95": 0.10170264995394972,
+  "estimation_ms_p99": 0.13963619305286556,
+  "update_ms_mean": 0.003667561941256281,
+  "update_ms_p95": 0.004648751200875266,
+  "update_ms_p99": 0.0062433003768092,
+  "total_ms_mean": 0.13865885602717753,
+  "total_ms_p95": 0.16860034957062447,
+  "total_ms_p99": 0.20657589328038736,
+  "deadline_miss_frequency": 0.0,
+  "seed": 108,
+  "method": "bias",
+  "model": "nonlinear",
+  "skipped_updates": 0,
+  "scenario_hash": "a67e3b312853ab7739d3e5dd8ef1b9ef1e2df3c035c2c155baf655609339d1c6",
+  "order": [
+    "iid",
+    "bias",
+    "periodic",
+    "gust",
+    "chirp"
+  ],
+  "final_parameters": [
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ]
+  ],
+  "variant": "base"
+}

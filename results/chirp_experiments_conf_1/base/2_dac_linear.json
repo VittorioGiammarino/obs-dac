@@ -1,0 +1,160 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 1500,
+  "position_rmse_observed": 0.04602199000852387,
+  "velocity_rmse_observed": 0.11674181641444852,
+  "cost_with_failure_penalty": 2.135418245843512,
+  "observed_cost": 2.135418245843512,
+  "effort_observed": 2.3442502626010344,
+  "attitude_tracking_rmse_observed": 0.04624003480127511,
+  "max_abs_pitch": 0.12233815991048029,
+  "velocity_cost_observed": 0.817719101984688,
+  "position_cost_observed": 1.2708141386068026,
+  "effort_cost_observed": 0.04688500525202069,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "chirp",
+      "cost_with_failure_penalty": 2.135418245843512,
+      "position_rmse_observed": 0.04602199000852387
+    }
+  ],
+  "phases": [
+    {
+      "segment": 0,
+      "regime": "chirp",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.1377039433498006,
+      "mean_stage_cost": 0.0688519716749003,
+      "position_rmse": 0.0670966393123202,
+      "effort": 0.03970083327050282
+    },
+    {
+      "segment": 0,
+      "regime": "chirp",
+      "phase": "later",
+      "duration": 58.0,
+      "complete": true,
+      "cost_with_failure_penalty": 1.9977143024937107,
+      "mean_stage_cost": 0.03444335004299501,
+      "position_rmse": 0.04512004979948513,
+      "effort": 2.3045494293305318
+    }
+  ],
+  "action_ms_mean": 0.059693593335396145,
+  "action_ms_p95": 0.07010545032244409,
+  "action_ms_p99": 0.10284916967066238,
+  "estimation_ms_mean": 0.007096497339565151,
+  "estimation_ms_p95": 0.008076200174400583,
+  "estimation_ms_p99": 0.013031019952904899,
+  "update_ms_mean": 1.1509993093471471,
+  "update_ms_p95": 2.3861273997681565,
+  "update_ms_p99": 2.889764720530365,
+  "total_ms_mean": 1.2177894000221083,
+  "total_ms_p95": 2.4574652006776887,
+  "total_ms_p99": 2.9572377825752483,
+  "deadline_miss_frequency": 0.0,
+  "seed": 2,
+  "method": "dac",
+  "model": "linear",
+  "skipped_updates": 0.0,
+  "scenario_hash": "c14056272ad229ade8409a6f3f0e428c199da028926031feb8ebc9531c1c398f",
+  "order": [
+    "chirp"
+  ],
+  "final_parameters": [
+    [
+      [
+        -0.24774130271217534,
+        -0.2685465155714662
+      ],
+      [
+        -0.0849860709750781,
+        -0.10266793335621775
+      ]
+    ],
+    [
+      [
+        -0.1742630089653641,
+        -0.24714775073726664
+      ],
+      [
+        -0.05717808468151487,
+        -0.0939351084596957
+      ]
+    ],
+    [
+      [
+        -0.09956286921770813,
+        -0.2219046470190404
+      ],
+      [
+        -0.02939497558552831,
+        -0.08402787429491125
+      ]
+    ],
+    [
+      [
+        -0.025027131226481168,
+        -0.1933852986299353
+      ],
+      [
+        -0.002137458639909282,
+        -0.07314394811280783
+      ]
+    ],
+    [
+      [
+        0.04764642207506027,
+        -0.16229026314146733
+      ],
+      [
+        0.024155381549158934,
+        -0.06149395774391996
+      ]
+    ],
+    [
+      [
+        0.11717751330593397,
+        -0.1293009241159714
+      ],
+      [
+        0.04903916524027593,
+        -0.04930992553064686
+      ]
+    ],
+    [
+      [
+        0.18205950064230528,
+        -0.09519043978564332
+      ],
+      [
+        0.07216546286097124,
+        -0.03682183566565627
+      ]
+    ],
+    [
+      [
+        0.24125484352569235,
+        -0.060676319784836175
+      ],
+      [
+        0.09318076225240553,
+        -0.02427100680301995
+      ]
+    ]
+  ],
+  "variant": "base"
+}

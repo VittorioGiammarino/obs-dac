@@ -1,0 +1,132 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 30,
+  "position_rmse_observed": 0.07437824707462234,
+  "velocity_rmse_observed": 0.10840499985374562,
+  "cost_with_failure_penalty": 0.0817566851991907,
+  "observed_cost": 0.0817566851991907,
+  "effort_observed": 0.06346143762595932,
+  "attitude_tracking_rmse_observed": 0.025569086535241734,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "bias",
+      "cost_with_failure_penalty": 0.0817566851991907,
+      "position_rmse_observed": 0.07437824707462234
+    }
+  ],
+  "action_ms_mean": 0.09883620001952902,
+  "action_ms_p95": 0.16545144987958327,
+  "action_ms_p99": 0.19224278997171496,
+  "estimation_ms_mean": 0.1866728333880019,
+  "estimation_ms_p95": 0.40407005014912994,
+  "estimation_ms_p99": 0.44247606991575594,
+  "update_ms_mean": 0.011103766670809515,
+  "update_ms_p95": 0.009474150283494963,
+  "update_ms_p99": 0.09703945014280191,
+  "total_ms_mean": 0.2966128000783404,
+  "total_ms_p95": 0.5165145004184523,
+  "total_ms_p99": 0.557881240201823,
+  "deadline_miss_frequency": 0.0,
+  "seed": 900,
+  "method": "bias",
+  "model": "nonlinear",
+  "skipped_updates": 0,
+  "scenario_hash": "00f91d21db389176504367781ca60435468f2a641e3858f07b5dfbc2a49faf82",
+  "order": [
+    "bias"
+  ],
+  "final_parameters": [
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ]
+  ],
+  "variant": "base"
+}

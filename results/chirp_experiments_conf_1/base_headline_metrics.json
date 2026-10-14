@@ -1,0 +1,530 @@
+[
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.06941385582174903,
+    "ci95_low": 0.06930167191921323,
+    "ci95_high": 0.06955212852014403,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.07374088526892038,
+    "ci95_low": 0.07353751879845047,
+    "ci95_high": 0.07400871714497524,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "metric": "position_rmse_observed",
+    "mean": 0.0698374179485088,
+    "ci95_low": 0.06968567817761899,
+    "ci95_high": 0.0700437059993756,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.06800086594228659,
+    "ci95_low": 0.06786580575327376,
+    "ci95_high": 0.06820168209920728,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.05020648760427643,
+    "ci95_low": 0.050164411408139126,
+    "ci95_high": 0.05027248518416224,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.0699040549524822,
+    "ci95_low": 0.06960631505233401,
+    "ci95_high": 0.07009061039961972,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.022805672599241256,
+    "ci95_low": 0.02279703497300799,
+    "ci95_high": 0.022810988267093556,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "metric": "position_rmse_observed",
+    "mean": 0.04602876738622231,
+    "ci95_low": 0.04549354182055545,
+    "ci95_high": 0.046570770329587625,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.04539781307924664,
+    "ci95_low": 0.04493989423853024,
+    "ci95_high": 0.04578919950150754,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_dac_linear",
+    "metric": "position_rmse_observed",
+    "mean": 0.038414818010224075,
+    "ci95_low": 0.03837107000537558,
+    "ci95_high": 0.038445920018367656,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_dac_nonlinear",
+    "metric": "position_rmse_observed",
+    "mean": 0.03582118657196288,
+    "ci95_low": 0.035764984783219614,
+    "ci95_high": 0.035862877489094745,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 5.01931160182187,
+    "ci95_low": 5.003857769568081,
+    "ci95_high": 5.027049223395042,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 5.523452956241101,
+    "ci95_low": 5.498207377359036,
+    "ci95_high": 5.543599203103683,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 5.328094995336362,
+    "ci95_low": 5.310071297410531,
+    "ci95_high": 5.353743696055818,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 5.184143891623124,
+    "ci95_low": 5.167937358038296,
+    "ci95_high": 5.208943524932368,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 3.079676126581436,
+    "ci95_low": 3.0760395579136266,
+    "ci95_high": 3.0844433782261387,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 5.023841981828116,
+    "ci95_low": 4.9907824025224965,
+    "ci95_high": 5.044482745150142,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 0.8391070614717832,
+    "ci95_low": 0.8383450628338269,
+    "ci95_high": 0.8404673545691125,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 2.141931892281734,
+    "ci95_low": 2.1171213002007203,
+    "ci95_high": 2.173256130800968,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 2.108116409983583,
+    "ci95_low": 2.0898511265281026,
+    "ci95_high": 2.125926581745154,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_dac_linear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 1.4709400541051083,
+    "ci95_low": 1.4692337489418759,
+    "ci95_high": 1.4724279269798857,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_dac_nonlinear",
+    "metric": "cost_with_failure_penalty",
+    "mean": 1.3667080515307992,
+    "ci95_low": 1.3640492085297613,
+    "ci95_high": 1.3687465840503343,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "metric": "effort_observed",
+    "mean": 0.9593493433611324,
+    "ci95_low": 0.9530090101098331,
+    "ci95_high": 0.9684728444079699,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "metric": "effort_observed",
+    "mean": 0.9467654461816641,
+    "ci95_low": 0.9392308144008391,
+    "ci95_high": 0.9571529003184441,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "metric": "effort_observed",
+    "mean": 2.0851066777239016,
+    "ci95_low": 2.082603435825973,
+    "ci95_high": 2.0881313501674246,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "metric": "effort_observed",
+    "mean": 2.0918096688804937,
+    "ci95_low": 2.088992886904318,
+    "ci95_high": 2.097142167156261,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "metric": "effort_observed",
+    "mean": 2.5127413194038484,
+    "ci95_low": 2.5088525970649096,
+    "ci95_high": 2.517167633593404,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "metric": "effort_observed",
+    "mean": 1.677024191751837,
+    "ci95_low": 1.6724137369354743,
+    "ci95_high": 1.6829096466870441,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "metric": "effort_observed",
+    "mean": 2.60676293623969,
+    "ci95_low": 2.596639288535609,
+    "ci95_high": 2.6195681246621585,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "metric": "effort_observed",
+    "mean": 2.3571808652436523,
+    "ci95_low": 2.3442502626010344,
+    "ci95_high": 2.3787197477087876,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "metric": "effort_observed",
+    "mean": 2.332160467955223,
+    "ci95_low": 2.328481770688814,
+    "ci95_high": 2.3390266700576174,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_dac_linear",
+    "metric": "effort_observed",
+    "mean": 1.807007703666147,
+    "ci95_low": 1.8018075946779784,
+    "ci95_high": 1.817343469381947,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_dac_nonlinear",
+    "metric": "effort_observed",
+    "mean": 1.8013111154937158,
+    "ci95_low": 1.797483208463973,
+    "ci95_high": 1.8074249227731594,
+    "n": 3,
+    "failures": 0,
+    "available_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  }
+]

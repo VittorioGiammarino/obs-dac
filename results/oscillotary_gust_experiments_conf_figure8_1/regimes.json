@@ -1,0 +1,123 @@
+[
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "regime": "oscillatory_gust",
+    "n": 3,
+    "mean_cost": 14.487464577079274,
+    "ci95": [
+      11.978193409652762,
+      16.077846315415485
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "regime": "oscillatory_gust",
+    "n": 3,
+    "mean_cost": 18.941435915813692,
+    "ci95": [
+      14.705024957948531,
+      23.334903083669534
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "regime": "oscillatory_gust",
+    "n": 3,
+    "mean_cost": 5.027574273021082,
+    "ci95": [
+      4.070298735229856,
+      5.962363173762369
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "regime": "oscillatory_gust",
+    "n": 3,
+    "mean_cost": 4.974384564587761,
+    "ci95": [
+      3.983776800336124,
+      5.947510915804895
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "regime": "oscillatory_gust",
+    "n": 3,
+    "mean_cost": 1.7106733539019023,
+    "ci95": [
+      1.3841019206498604,
+      2.060599060681219
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "regime": "oscillatory_gust",
+    "n": 3,
+    "mean_cost": 15.735195940308223,
+    "ci95": [
+      12.067340900583963,
+      20.057146470865124
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "regime": "oscillatory_gust",
+    "n": 3,
+    "mean_cost": 0.17513361342406808,
+    "ci95": [
+      0.15474484483055442,
+      0.2022863350895214
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "regime": "oscillatory_gust",
+    "n": 3,
+    "mean_cost": 3.52807099058513,
+    "ci95": [
+      2.892112376792334,
+      4.1653501743892605
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "regime": "oscillatory_gust",
+    "n": 3,
+    "mean_cost": 3.4345723278407227,
+    "ci95": [
+      2.768229581647594,
+      4.179218876718877
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_dac_linear",
+    "regime": "oscillatory_gust",
+    "n": 3,
+    "mean_cost": 1.7342125892056728,
+    "ci95": [
+      1.3214991096846525,
+      2.056699691255361
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_dac_nonlinear",
+    "regime": "oscillatory_gust",
+    "n": 3,
+    "mean_cost": 1.6208380562089675,
+    "ci95": [
+      1.2572316781037356,
+      1.9713423344752437
+    ]
+  }
+]

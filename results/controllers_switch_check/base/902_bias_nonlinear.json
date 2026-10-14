@@ -1,0 +1,195 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 150,
+  "position_rmse_observed": 0.047297944017989854,
+  "velocity_rmse_observed": 0.07452530915758197,
+  "cost_with_failure_penalty": 0.17043002314247355,
+  "observed_cost": 0.17043002314247355,
+  "effort_observed": 0.14400812062701693,
+  "attitude_tracking_rmse_observed": 0.020725777094696717,
+  "max_abs_pitch": 0.10792664736854883,
+  "velocity_cost_observed": 0.03332413023019903,
+  "position_cost_observed": 0.13422573049973416,
+  "effort_cost_observed": 0.0028801624125403386,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    },
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    },
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "iid",
+      "cost_with_failure_penalty": 0.012118304368054349,
+      "position_rmse_observed": 0.01652541225203048
+    },
+    {
+      "segment": 1,
+      "regime": "bias",
+      "cost_with_failure_penalty": 0.13111449763529545,
+      "position_rmse_observed": 0.07669394990208202
+    },
+    {
+      "segment": 2,
+      "regime": "periodic",
+      "cost_with_failure_penalty": 0.02719722113912374,
+      "position_rmse_observed": 0.02358464168275795
+    }
+  ],
+  "phases": [
+    {
+      "segment": 0,
+      "regime": "iid",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.012118304368054349,
+      "mean_stage_cost": 0.0060591521840271745,
+      "position_rmse": 0.01652541225203048,
+      "effort": 0.023428584271332577
+    },
+    {
+      "segment": 1,
+      "regime": "bias",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.13111449763529545,
+      "mean_stage_cost": 0.06555724881764773,
+      "position_rmse": 0.07669394990208202,
+      "effort": 0.08330388466792005
+    },
+    {
+      "segment": 2,
+      "regime": "periodic",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.02719722113912374,
+      "mean_stage_cost": 0.01359861056956187,
+      "position_rmse": 0.02358464168275795,
+      "effort": 0.03727565168776427
+    }
+  ],
+  "action_ms_mean": 0.121599606621506,
+  "action_ms_p95": 0.2153164000446846,
+  "action_ms_p99": 0.4904982095104035,
+  "estimation_ms_mean": 0.19630631342200408,
+  "estimation_ms_p95": 0.3668594002192548,
+  "estimation_ms_p99": 0.5271328108938175,
+  "update_ms_mean": 0.0072935132872468484,
+  "update_ms_p95": 0.009055399368662618,
+  "update_ms_p99": 0.012337540047155926,
+  "total_ms_mean": 0.32519943333075696,
+  "total_ms_p95": 0.5312834506185025,
+  "total_ms_p99": 0.7491224699151633,
+  "deadline_miss_frequency": 0.0,
+  "seed": 902,
+  "method": "bias",
+  "model": "nonlinear",
+  "skipped_updates": 0,
+  "scenario_hash": "2d59a047418518dcc0f30094c02d832f08f887043a3e239e8f0a78f214bfc059",
+  "order": [
+    "iid",
+    "bias",
+    "periodic"
+  ],
+  "final_parameters": [
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ]
+  ],
+  "variant": "base"
+}

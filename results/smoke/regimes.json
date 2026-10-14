@@ -1,0 +1,57 @@
+[
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.1997056319338518,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.08114376641697794,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.0817566851991907,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.19855854550064622,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.19859979571898503,
+    "ci95": [
+      null,
+      null
+    ]
+  }
+]

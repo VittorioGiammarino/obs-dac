@@ -1,0 +1,114 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 150,
+  "position_rmse_observed": 0.13214747720090025,
+  "velocity_rmse_observed": 0.09893467335770384,
+  "cost_with_failure_penalty": 1.1091404022191704,
+  "observed_cost": 1.1091404022191704,
+  "effort_observed": 0.13173204155251036,
+  "attitude_tracking_rmse_observed": 0.012970085723246325,
+  "max_abs_pitch": 0.09806463145531148,
+  "velocity_cost_observed": 0.058728417554373316,
+  "position_cost_observed": 1.0477773438337472,
+  "effort_cost_observed": 0.0026346408310502075,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    },
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    },
+    {
+      "time": 0.96,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "iid",
+      "cost_with_failure_penalty": 0.010788669984146348,
+      "position_rmse_observed": 0.015050482520694974
+    },
+    {
+      "segment": 1,
+      "regime": "bias",
+      "cost_with_failure_penalty": 0.6255681005899507,
+      "position_rmse_observed": 0.1721104316963959
+    },
+    {
+      "segment": 2,
+      "regime": "periodic",
+      "cost_with_failure_penalty": 0.4727836316450735,
+      "position_rmse_observed": 0.15013443798430076
+    }
+  ],
+  "phases": [
+    {
+      "segment": 0,
+      "regime": "iid",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.010788669984146348,
+      "mean_stage_cost": 0.005394334992073174,
+      "position_rmse": 0.015050482520694974,
+      "effort": 0.016469202611932642
+    },
+    {
+      "segment": 1,
+      "regime": "bias",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.6255681005899507,
+      "mean_stage_cost": 0.31278405029497536,
+      "position_rmse": 0.1721104316963959,
+      "effort": 0.07531393535111061
+    },
+    {
+      "segment": 2,
+      "regime": "periodic",
+      "phase": "transition",
+      "duration": 2.0,
+      "complete": true,
+      "cost_with_failure_penalty": 0.4727836316450735,
+      "mean_stage_cost": 0.23639181582253674,
+      "position_rmse": 0.15013443798430076,
+      "effort": 0.03994890358946712
+    }
+  ],
+  "action_ms_mean": 0.23106207326539635,
+  "action_ms_p95": 0.4722089496681291,
+  "action_ms_p99": 1.237897739392786,
+  "estimation_ms_mean": 0.4912482199627751,
+  "estimation_ms_p95": 1.0520054497646916,
+  "estimation_ms_p99": 3.36588527032289,
+  "update_ms_mean": 0.00821281989677421,
+  "update_ms_p95": 0.00907729963728343,
+  "update_ms_p99": 0.029981030220369253,
+  "total_ms_mean": 0.7305231131249457,
+  "total_ms_p95": 1.622555199082853,
+  "total_ms_p99": 4.432798840971372,
+  "deadline_miss_frequency": 0.0,
+  "seed": 902,
+  "method": "l1",
+  "model": "nonlinear",
+  "skipped_updates": 0,
+  "scenario_hash": "2d59a047418518dcc0f30094c02d832f08f887043a3e239e8f0a78f214bfc059",
+  "order": [
+    "iid",
+    "bias",
+    "periodic"
+  ],
+  "final_parameters": [],
+  "variant": "base"
+}

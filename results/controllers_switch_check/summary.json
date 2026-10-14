@@ -1,0 +1,1080 @@
+[
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "n": 1,
+    "failures": 0,
+    "mean_cost": 2.1146242924238834,
+    "ci95": [
+      null,
+      null
+    ],
+    "metrics": {
+      "position_rmse_observed": {
+        "mean": 0.18502617864019336,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_rmse_observed": {
+        "mean": 0.09843884444222924,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_observed": {
+        "mean": 0.12009244607951887,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "saturation_frequency_observed": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "max_abs_pitch": {
+        "mean": 0.09525536188082862,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "position_cost_observed": {
+        "mean": 2.054081206931565,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_cost_observed": {
+        "mean": 0.05814123657072845,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_cost_observed": {
+        "mean": 0.0024018489215903776,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "action_ms_mean": {
+        "mean": 0.148919680104882,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "estimation_ms_mean": {
+        "mean": 0.22106899997500778,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "update_ms_mean": {
+        "mean": 0.0024179465496369326,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_mean": {
+        "mean": 0.3724066266295267,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p95": {
+        "mean": 0.8031600498725311,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p99": {
+        "mean": 1.5954626898383113,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "deadline_miss_frequency": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    "mean_controller_ms": 0.3724066266295267
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "n": 1,
+    "failures": 0,
+    "mean_cost": 1.316282826724708,
+    "ci95": [
+      null,
+      null
+    ],
+    "metrics": {
+      "position_rmse_observed": {
+        "mean": 0.1439842189506441,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_rmse_observed": {
+        "mean": 0.10786200236390929,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_observed": {
+        "mean": 0.12951194956874512,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "saturation_frequency_observed": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "max_abs_pitch": {
+        "mean": 0.0985482463173626,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "position_cost_observed": {
+        "mean": 1.2438873184096213,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_cost_observed": {
+        "mean": 0.06980526932371184,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_cost_observed": {
+        "mean": 0.0025902389913749022,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "action_ms_mean": {
+        "mean": 0.140678120017886,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "estimation_ms_mean": {
+        "mean": 0.18822670003525369,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "update_ms_mean": {
+        "mean": 0.009517033334608033,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_mean": {
+        "mean": 0.3384218533877477,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p95": {
+        "mean": 0.5590052009210918,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p99": {
+        "mean": 1.0821320402465013,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "deadline_miss_frequency": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    "mean_controller_ms": 0.3384218533877477
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "n": 1,
+    "failures": 0,
+    "mean_cost": 0.17753716119888363,
+    "ci95": [
+      null,
+      null
+    ],
+    "metrics": {
+      "position_rmse_observed": {
+        "mean": 0.048282311218217557,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_rmse_observed": {
+        "mean": 0.07612674636768454,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_observed": {
+        "mean": 0.14472887646680008,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "saturation_frequency_observed": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "max_abs_pitch": {
+        "mean": 0.10907469445650389,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "position_cost_observed": {
+        "mean": 0.13987089459436902,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_cost_observed": {
+        "mean": 0.034771689075178636,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_cost_observed": {
+        "mean": 0.0028945775293360014,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "action_ms_mean": {
+        "mean": 0.12513377336290432,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "estimation_ms_mean": {
+        "mean": 0.01268844000151148,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "update_ms_mean": {
+        "mean": 0.00903920668254917,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_mean": {
+        "mean": 0.14686142004696495,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p95": {
+        "mean": 0.2433432003272173,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p99": {
+        "mean": 0.8228180894729976,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "deadline_miss_frequency": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    "mean_controller_ms": 0.14686142004696495
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "n": 1,
+    "failures": 0,
+    "mean_cost": 0.17043002314247355,
+    "ci95": [
+      null,
+      null
+    ],
+    "metrics": {
+      "position_rmse_observed": {
+        "mean": 0.047297944017989854,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_rmse_observed": {
+        "mean": 0.07452530915758197,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_observed": {
+        "mean": 0.14400812062701693,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "saturation_frequency_observed": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "max_abs_pitch": {
+        "mean": 0.10792664736854883,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "position_cost_observed": {
+        "mean": 0.13422573049973416,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_cost_observed": {
+        "mean": 0.03332413023019903,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_cost_observed": {
+        "mean": 0.0028801624125403386,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "action_ms_mean": {
+        "mean": 0.121599606621506,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "estimation_ms_mean": {
+        "mean": 0.19630631342200408,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "update_ms_mean": {
+        "mean": 0.0072935132872468484,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_mean": {
+        "mean": 0.32519943333075696,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p95": {
+        "mean": 0.5312834506185025,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p99": {
+        "mean": 0.7491224699151633,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "deadline_miss_frequency": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    "mean_controller_ms": 0.32519943333075696
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "n": 1,
+    "failures": 0,
+    "mean_cost": 0.07192387758657956,
+    "ci95": [
+      null,
+      null
+    ],
+    "metrics": {
+      "position_rmse_observed": {
+        "mean": 0.0275652542214818,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_rmse_observed": {
+        "mean": 0.0613400273199492,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_observed": {
+        "mean": 0.18788447296058333,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "saturation_frequency_observed": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "max_abs_pitch": {
+        "mean": 0.11006090629409283,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "position_cost_observed": {
+        "mean": 0.04559059441769521,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_cost_observed": {
+        "mean": 0.022575593709672683,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_cost_observed": {
+        "mean": 0.0037576894592116668,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "action_ms_mean": {
+        "mean": 0.1800848532851281,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "estimation_ms_mean": {
+        "mean": 0.5752761200710665,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "update_ms_mean": {
+        "mean": 0.001401459909781503,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_mean": {
+        "mean": 0.7567624332659761,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p95": {
+        "mean": 1.7319020006652828,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p99": {
+        "mean": 5.146120730423696,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "deadline_miss_frequency": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    "mean_controller_ms": 0.7567624332659761
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "n": 1,
+    "failures": 0,
+    "mean_cost": 1.1091404022191704,
+    "ci95": [
+      null,
+      null
+    ],
+    "metrics": {
+      "position_rmse_observed": {
+        "mean": 0.13214747720090025,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_rmse_observed": {
+        "mean": 0.09893467335770384,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_observed": {
+        "mean": 0.13173204155251036,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "saturation_frequency_observed": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "max_abs_pitch": {
+        "mean": 0.09806463145531148,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "position_cost_observed": {
+        "mean": 1.0477773438337472,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_cost_observed": {
+        "mean": 0.058728417554373316,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_cost_observed": {
+        "mean": 0.0026346408310502075,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "action_ms_mean": {
+        "mean": 0.23106207326539635,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "estimation_ms_mean": {
+        "mean": 0.4912482199627751,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "update_ms_mean": {
+        "mean": 0.00821281989677421,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_mean": {
+        "mean": 0.7305231131249457,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p95": {
+        "mean": 1.622555199082853,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p99": {
+        "mean": 4.432798840971372,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "deadline_miss_frequency": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    "mean_controller_ms": 0.7305231131249457
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "n": 1,
+    "failures": 0,
+    "mean_cost": 0.04359693384647944,
+    "ci95": [
+      null,
+      null
+    ],
+    "metrics": {
+      "position_rmse_observed": {
+        "mean": 0.010719933767213575,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_rmse_observed": {
+        "mean": 0.0639167148717266,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_observed": {
+        "mean": 0.609491820405556,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "saturation_frequency_observed": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "max_abs_pitch": {
+        "mean": 0.19893369078488815,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "position_cost_observed": {
+        "mean": 0.00689501879840675,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_cost_observed": {
+        "mean": 0.02451207863996157,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_cost_observed": {
+        "mean": 0.01218983640811112,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "action_ms_mean": {
+        "mean": 404.663288453315,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "estimation_ms_mean": {
+        "mean": 0.8424606000577721,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "update_ms_mean": {
+        "mean": 0.004210159859212581,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_mean": {
+        "mean": 405.5099592132319,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p95": {
+        "mean": 848.0017117490191,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p99": {
+        "mean": 1328.721177749812,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "deadline_miss_frequency": {
+        "mean": 1.0,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "solver_nonconvergence_frequency": {
+        "mean": 0.24,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    "mean_controller_ms": 405.5099592132319
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "n": 1,
+    "failures": 0,
+    "mean_cost": 1.1013224523198941,
+    "ci95": [
+      null,
+      null
+    ],
+    "metrics": {
+      "position_rmse_observed": {
+        "mean": 0.1303808429656301,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_rmse_observed": {
+        "mean": 0.11434801368754553,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_observed": {
+        "mean": 0.1459895084236786,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "saturation_frequency_observed": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "max_abs_pitch": {
+        "mean": 0.09883171276630692,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "position_cost_observed": {
+        "mean": 1.0199498527456978,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_cost_observed": {
+        "mean": 0.0784528094057226,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_cost_observed": {
+        "mean": 0.002919790168473572,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "action_ms_mean": {
+        "mean": 0.10945872658339795,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "estimation_ms_mean": {
+        "mean": 0.01855590004803768,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "update_ms_mean": {
+        "mean": 1.8463242533713735,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_mean": {
+        "mean": 1.9743388800028088,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p95": {
+        "mean": 5.058141000517933,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p99": {
+        "mean": 8.435406050066373,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "deadline_miss_frequency": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    "mean_controller_ms": 1.9743388800028088
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "n": 1,
+    "failures": 0,
+    "mean_cost": 1.1235909338590135,
+    "ci95": [
+      null,
+      null
+    ],
+    "metrics": {
+      "position_rmse_observed": {
+        "mean": 0.13188388387438285,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_rmse_observed": {
+        "mean": 0.11339103244747283,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_observed": {
+        "mean": 0.14221234372441446,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "saturation_frequency_observed": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "max_abs_pitch": {
+        "mean": 0.09857669640688654,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "position_cost_observed": {
+        "mean": 1.043601529547502,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "velocity_cost_observed": {
+        "mean": 0.07714515743702301,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "effort_cost_observed": {
+        "mean": 0.0028442468744882894,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "action_ms_mean": {
+        "mean": 0.11183211997073765,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "estimation_ms_mean": {
+        "mean": 0.14488517999173686,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "update_ms_mean": {
+        "mean": 5.123197246612108,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_mean": {
+        "mean": 5.379914546574582,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p95": {
+        "mean": 15.129795849861692,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "total_ms_p99": {
+        "mean": 21.247931900106764,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "deadline_miss_frequency": {
+        "mean": 0.0,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    "mean_controller_ms": 5.379914546574582
+  }
+]

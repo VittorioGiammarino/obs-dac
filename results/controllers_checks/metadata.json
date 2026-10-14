@@ -1,0 +1,24 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "git_revision": null,
+  "source_sha256": {
+    "plant.py": "984d183d9954846c0358681629118cda0f717be7ce2f71ee16add24e9702d358",
+    "estimation.py": "130c33cfe10647684155c89b033477d7a823934885c8d61426fa632c73186fb6",
+    "configuration.py": "565278da8ea3828a3fd93c48e1549688c93eb29feff19d61e5b748be99aac254",
+    "controllers.py": "996ae4c12518df9d55e09c4f2e2c940c2ae42a6ea1b803d92014a9af7324f7f5",
+    "__init__.py": "f10a8680e56dbe348d2a7006de61a22aa791d9092ab36a77e263635ad865062a",
+    "baselines.py": "f33e1294910d62f14369dd4036197e0165bc93d180492466b2c7f02f78205af7",
+    "reporting.py": "22dbd5992e10dce18f3a738a6b05329a33457457c67eb88c736a5319459e50a7",
+    "scenarios.py": "f15a9151d40cda62badf0962caefba1bfb139758a0786d2bde7ea494ba6fc805",
+    "experiment.py": "87bae43b53c5891a969d4932ffef678e315b61e665e209fee9ba9b2ec89955dd",
+    "references.py": "986d2e1c2d95be330593d8174357f3433c978248920406b0d0e213f2983e263d",
+    "models.py": "5b4ee7cb6cdc065237b884b9039b899760a163a81af50a76d58aeeac3963362b",
+    "metrics.py": "404e4530d0c2d5a0ba09b7692ed81e65e6db61f7d71c3a67062444e96d47e997"
+  }
+}

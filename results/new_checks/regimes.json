@@ -1,0 +1,596 @@
+[
+  {
+    "variant": "base",
+    "controller": "nominal_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 1.6431454086517017,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "pid_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 1.2654588707575705,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_linear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.15552605728095084,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "bias_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.15999215350152116,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dob_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.034763663904733275,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "l1_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 1.1230839947151807,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "nmpc_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.006822053650500085,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_linear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 1.086024616745706,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "base",
+    "controller": "dac_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 1.1045550211107946,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "nominal_nonlinear",
+    "regime": "gust",
+    "n": 1,
+    "mean_cost": 0.28192199003362134,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "pid_nonlinear",
+    "regime": "gust",
+    "n": 1,
+    "mean_cost": 0.30342906956024734,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "bias_linear",
+    "regime": "gust",
+    "n": 1,
+    "mean_cost": 0.15105582459232575,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "bias_nonlinear",
+    "regime": "gust",
+    "n": 1,
+    "mean_cost": 0.15633198798514897,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dob_nonlinear",
+    "regime": "gust",
+    "n": 1,
+    "mean_cost": 0.0765047446836408,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "l1_nonlinear",
+    "regime": "gust",
+    "n": 1,
+    "mean_cost": 0.2758717046707698,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "nmpc_nonlinear",
+    "regime": "gust",
+    "n": 1,
+    "mean_cost": 0.03832274302450306,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dac_linear",
+    "regime": "gust",
+    "n": 1,
+    "mean_cost": 0.2595149570193597,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "correlated_gust",
+    "controller": "dac_nonlinear",
+    "regime": "gust",
+    "n": 1,
+    "mean_cost": 0.2593621194531853,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "nominal_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 1.6445730941236993,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "pid_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 1.2675208421732223,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "bias_linear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.1549838497581821,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "bias_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.15958438306054185,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "dob_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.03614268798755778,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "l1_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 1.123879381019365,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "nmpc_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.007460165504414592,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "dac_linear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 1.0876962924362,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "inertia_error",
+    "controller": "dac_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 1.106246999294762,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "nominal_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 15.093666479617887,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "pid_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 11.939570601136593,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "bias_linear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 1.0873676541897346,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "bias_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.926006994780623,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "dob_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.11628475138700635,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "l1_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 1.6374731612323543,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "nmpc_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.010822432566547491,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "dac_linear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 4.33657249934053,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "mass_error",
+    "controller": "dac_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 4.107815291318451,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "nominal_nonlinear",
+    "regime": "periodic",
+    "n": 1,
+    "mean_cost": 0.6135803208282419,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "pid_nonlinear",
+    "regime": "periodic",
+    "n": 1,
+    "mean_cost": 0.5768642629222245,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "bias_linear",
+    "regime": "periodic",
+    "n": 1,
+    "mean_cost": 0.18347876721303702,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "bias_nonlinear",
+    "regime": "periodic",
+    "n": 1,
+    "mean_cost": 0.1868460818686616,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dob_nonlinear",
+    "regime": "periodic",
+    "n": 1,
+    "mean_cost": 0.07433978717509962,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "l1_nonlinear",
+    "regime": "periodic",
+    "n": 1,
+    "mean_cost": 0.5085176244989631,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "nmpc_nonlinear",
+    "regime": "periodic",
+    "n": 1,
+    "mean_cost": 0.008483068199906336,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dac_linear",
+    "regime": "periodic",
+    "n": 1,
+    "mean_cost": 0.5622096468309367,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "periodic",
+    "controller": "dac_nonlinear",
+    "regime": "periodic",
+    "n": 1,
+    "mean_cost": 0.5626956654669875,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "nominal_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 1.2644126431094709,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "pid_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.9898016217471935,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "bias_linear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.12534440382848042,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "bias_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.13067700738111898,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "dob_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.029102700656689358,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "l1_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.8364807614367961,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "nmpc_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.006025029914135185,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "dac_linear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.913599206026508,
+    "ci95": [
+      null,
+      null
+    ]
+  },
+  {
+    "variant": "unmodeled_drag",
+    "controller": "dac_nonlinear",
+    "regime": "bias",
+    "n": 1,
+    "mean_cost": 0.9259182132567432,
+    "ci95": [
+      null,
+      null
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "failed": false,
+  "failure_step": null,
+  "completed_steps": 30,
+  "position_rmse_observed": 0.038833825520490896,
+  "velocity_rmse_observed": 0.06161090903045843,
+  "cost_with_failure_penalty": 0.024015249043652417,
+  "observed_cost": 0.024015249043652417,
+  "effort_observed": 0.06816860275549749,
+  "attitude_tracking_rmse_observed": 0.029054551848589204,
+  "max_abs_pitch": 0.09540781499473812,
+  "velocity_cost_observed": 0.004555084933871309,
+  "position_cost_observed": 0.01809679205467116,
+  "effort_cost_observed": 0.0013633720551099499,
+  "saturation_frequency_observed": 0.0,
+  "constraint_violation_steps": 0,
+  "recovery": [
+    {
+      "time": 0.76,
+      "censored": false,
+      "minimum_measurable": 0.76
+    }
+  ],
+  "regimes": [
+    {
+      "segment": 0,
+      "regime": "bias",
+      "cost_with_failure_penalty": 0.024015249043652417,
+      "position_rmse_observed": 0.038833825520490896
+    }
+  ],
+  "phases": [
+    {
+      "segment": 0,
+      "regime": "bias",
+      "phase": "transition",
+      "duration": 1.2,
+      "complete": true,
+      "cost_with_failure_penalty": 0.024015249043652417,
+      "mean_stage_cost": 0.020012707536377013,
+      "position_rmse": 0.038833825520490896,
+      "effort": 0.06816860275549749
+    }
+  ],
+  "action_ms_mean": 0.0994533328290951,
+  "action_ms_p95": 0.11256314883212323,
+  "action_ms_p99": 0.132857269672968,
+  "estimation_ms_mean": 0.334294099836067,
+  "estimation_ms_p95": 0.3439287002038327,
+  "estimation_ms_p99": 0.43083868997200636,
+  "update_ms_mean": 0.0010704668966354802,
+  "update_ms_p95": 0.001489002170274033,
+  "update_ms_p99": 0.0019271907876827756,
+  "total_ms_mean": 0.4348178995617976,
+  "total_ms_p95": 0.4562339492622413,
+  "total_ms_p99": 0.5655187504817151,
+  "deadline_miss_frequency": 0.0,
+  "seed": 900,
+  "method": "dob",
+  "model": "nonlinear",
+  "skipped_updates": 0,
+  "scenario_hash": "3f51f4d42feaf86cd3aa7f15348da387cdd1ec8f9c1a5ee2bad6ec6c66ced523",
+  "order": [
+    "bias"
+  ],
+  "final_parameters": [],
+  "variant": "base"
+}
